@@ -1,0 +1,36 @@
+//font  URL:  https://coolors.co/102542-f87060-cdd7d6-b3a394-ffffff
+
+// Below is not a completed template but should help guide the team
+body {
+    background-color: $light-gray;
+    font-weight: $font-weight-normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        font-size: 40px;
+        color: $oxford-blue;
+        font-family: $title-copy;
+    }
+
+    a {
+        color: $bittersweet;
+
+        &:hover {
+            color: red;
+        }
+    }
+    p  {
+        color: $light-black;
+    }
+}
+
+
+.nav-link {
+    color: $primary !important;
+}
+
+.logo {
+    color: darken($secondary, 20%) !important;
+}
