@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Wrapper/Hero';
 import CTA from './components/CTA';
+import Cards from './components/Products';
 import Footer from './components/Footer';
 
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <CTA />
+      <Cards />
       <Footer />
     </div>
   );
