@@ -31,7 +31,7 @@
 - [ ] Must not expose sensitive API key information on the server
 
 ## Wireframes
-![First draft Wireframes folder](/fileReadme/Wireframe PDFs)
+![First draft Wireframes folder](\fileReadme\Wireframe PDFs\Get Started ΓÇô 1.pdf)
 
 ![Adobe XD Wireframes for full site](https://xd.adobe.com/view/8ee2a4d6-8270-43d1-a5a3-aae92f6b7929-dbb1/?fullscreen)
 
@@ -42,7 +42,7 @@
 
 ## Milestones (https://github.com/dianecandler/bvApp/milestones)
 * Home Page Components - Due 9/24/2020
-    * Mav. HeroImage, CTABanner, Product, Testimonial, Gallery, Map, Contact, Footer
+    * Nav. HeroImage, CTABanner, Product, Testimonial, Gallery, Map, Contact, Footer
 
 * Calendar Copmponent - Due 9/30/2020
     * Determine package, plan to popular calendar with data not push data from calendar
