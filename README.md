@@ -31,7 +31,7 @@
 - [ ] Must not expose sensitive API key information on the server
 
 ## Wireframes
-![First draft Wireframes folder](\fileReadme\Wireframe PDFs\Get Started ΓÇô 1.pdf)
+![First draft Wireframes folder](\fileReadme\Wireframe\getStarted1.pdf)
 
 ![Adobe XD Wireframes for full site](https://xd.adobe.com/view/8ee2a4d6-8270-43d1-a5a3-aae92f6b7929-dbb1/?fullscreen)
 
