@@ -1,11 +1,14 @@
 import React from 'react';
 import {CardDeck, Card} from 'react-bootstrap';
+import Garden from './garden.jpg';
+import MM from './mb.jpg';
+import PR from './pr.jpg';
 
 export default function cards() {
     return (
 <CardDeck>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={PR} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -18,7 +21,7 @@ export default function cards() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={MM} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -31,7 +34,7 @@ export default function cards() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={Garden} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

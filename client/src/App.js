@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Wrapper/Hero';
 import CTA from './components/CTA';
 import Cards from './components/Products';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <CTA />
       <Cards />
+      <Testimonials />
       <Footer />
     </div>
   );
