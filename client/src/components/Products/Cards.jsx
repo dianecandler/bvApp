@@ -44,6 +44,7 @@ export default function cards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
+      //! add Book Event button
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>

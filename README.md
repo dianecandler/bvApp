@@ -8,23 +8,28 @@
 * GitHub  https://github.com/dianecandler/bvApp
 
 # Minimum Requirements
-- [ ] Must use React.JS in some way
+- [x] Must use React.JS in some way
 
-- [ ] Must use Node and Express Web Server
+- [x] Must use Node and Express Web Server
 
-- [ ] Must be backed by MySQL or MongoDB Dabase with Sequelize or Mongoose ORM
+- [X] Must be backed by MySQL or MongoDB Dabase with Sequelize or Mongoose ORM
+    -[x] MongoDB
+    -[x] Mongoose
 
-- [ ] Must have GET and POST routes for retrieving and adding new data
+- [] Must have GET and POST routes for retrieving and adding new data
 
-- [ ] Must be deployed using Heroku  (with Data)
+- [] Must be deployed using Heroku  (with Data)
 
-- [ ] Must utilize two "new to me" libraries, packages, or technologies 
+- [] Must utilize two "new to me" libraries, packages, or technologies 
+    -[]
+    -[]
 
-- [ ] Must allow for or involve the authentication of users in some way.
+- [] Must allow for or involve the authentication of users in some way.
 
-- [ ] Must have a polished frontend/UI
+- [x] Must have a polished frontend/UI
 
-- [ ] Must have folder structure that meets MVC Paradigm
+- [x] Must have folder structure that meets MVC Paradigm
+    * Components are in individual files with CSS
 
 - [ ] Must meet good quality coding standards
 
