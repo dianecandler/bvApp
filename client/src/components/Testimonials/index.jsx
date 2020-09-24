@@ -4,7 +4,7 @@ import {Carousel, Container, Row, Col, Card, } from 'react-bootstrap';
 
 export default function index() {
     return (
-        <Carousel className="mt-5 mb-5">
+        <Carousel className="mt-5 mb-5" style={{backgroundColor: '#e9ecef', padding: '4rem 2rem', marginTop: '2rem', marginBottom: '2rem'}}>
             <Carousel.Item>
                 <Container className="border border-dark p-3">
                     <Row>
@@ -12,7 +12,7 @@ export default function index() {
                         <Col>
                             <Card style={{border: "none"}}>
                                 <Card.Header>Quote</Card.Header>
-                                <Card.Body style={{backgroundColor: "#cdd7d6ff"}}>
+                                <Card.Body>
                                     <blockquote className="blockquote mb-0">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                         <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -30,7 +30,7 @@ export default function index() {
                         <Col>
                         <Card style={{border: "none"}}>
                                 <Card.Header>Quote</Card.Header>
-                                <Card.Body style={{backgroundColor: "#cdd7d6ff"}}>
+                                <Card.Body>
                                     <blockquote className="blockquote mb-0">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                         <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -48,7 +48,7 @@ export default function index() {
                         <Col>
                         <Card style={{border: "none"}}>
                                 <Card.Header>Quote</Card.Header>
-                                <Card.Body style={{backgroundColor: "#cdd7d6ff"}}>
+                                <Card.Body>
                                     <blockquote className="blockquote mb-0">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                         <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
