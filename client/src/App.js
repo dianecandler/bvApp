@@ -1,30 +1,35 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 // Components
 import Navbar from './components/Navbar';
-import Hero from './components/Wrapper/Hero';
-import CTA from './components/CTA';
-import Cards from './components/Products';
-import Testimonials from './components/Testimonials';
-import Gallery from './components/Gallery';
-import Map from './components/Map';
-import Bartlett from './components/Bartlett';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import PageHome from './components/PageHome';
+import PageAbout from './components/PageAbout';
+import PageCalendar from './components/PageCalendar';
+import PagePhotoshoot from './components/PagePhotoshoot';
+import PageVenue from './components/PageVenue';
+import PageContact from './components/PageContact';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <CTA />
-      <Cards />
-      <Testimonials />
-      <Gallery />
-      <Map />
-      <Bartlett />
-      <Contact />
+      <Router>
+        <Switch>
+          <Route exact path="/" ><PageHome /></Route>
+          <Route exact path="/venue-rental" ><PageVenue /></Route>
+          <Route exact path="/calendar" ><PageCalendar /></Route>
+          <Route exact path="/photoshoot" ><PagePhotoshoot /></Route>
+          <Route exact path="/about-us" ><PageAbout /></Route>
+          <Route exact path="/contact-us" ><PageContact /></Route>
+        </Switch>
+      </Router>
       <Footer />
     </div>
   );
