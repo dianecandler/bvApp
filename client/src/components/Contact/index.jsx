@@ -1,5 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+const map = <FontAwesomeIcon icon={faMapMarkerAlt} />
+// const store = <FontAwesomeIcon icon={fasStores} />
+const email = <FontAwesomeIcon icon={faEnvelope} />
+const phone = <FontAwesomeIcon icon={faPhone} />
 
 export default function index() {
     return (
@@ -12,33 +18,51 @@ export default function index() {
                             <Col>
                                 <Form>
                                     <Row>
-                                        <Col>
-                                            <Form.Control placeholder="First Name" />
+                                        <Col xs={6}>
+                                            <Form.Group controlId="exampleForm.ControlTextarea1">
+                                                <Form.Label style={{color: 'var(--info)'}}>First Name</Form.Label>
+                                                <Form.Control placeholder="First Name" />
+                                                </Form.Group>
                                         </Col>
-                                        <Col>
-                                            <Form.Control placeholder="Last Name" />
-                                        </Col>
+                                            <Col xs={6}>
+                                                <Form.Group controlId="exampleForm.ControlTextarea1">
+                                                <Form.Label style={{color: 'var(--info)'}}>Last Name</Form.Label>
+                                                <Form.Control placeholder="Last Name" />
+                                                </Form.Group>
+                                            </Col>
+                                            <Col xs={6}>
+                                            <Form.Group controlId="exampleForm.ControlTextarea1">
+                                                <Form.Label style={{color: 'var(--info)'}}>Email</Form.Label>
+                                                <Form.Control placeholder="company@mail.com" />
+                                                </Form.Group>
+                                            </Col>
+                                            <Col xs={6}>
+                                            <Form.Group controlId="exampleForm.ControlTextarea1">
+                                                <Form.Label style={{color: 'var(--info)'}}>Phone</Form.Label>
+                                                <Form.Control placeholder="+1 234 567 8900" />
+                                                </Form.Group>
+                                            </Col>
                                     </Row>
-                                    <Row>
-                                        <Col>
-                                            <Form.Control placeholder="Phone" />
-                                        </Col>
-                                        <Col>
-                                            <Form.Control placeholder="Email" />
-                                        </Col>
-                                    </Row>
-                                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                                        <Form.Label>Your interest?</Form.Label>
-                                        <Form.Control as="textarea" rows="3" />
-                                    </Form.Group>
-                                    <Row className="d-flex justify-content-center">
-                                        <p><br /><Button variant="primary">Send Request</Button><br /></p>
-                                    </Row>
+                                        <Form.Group controlId="exampleForm.ControlTextarea1">
+                                            <Form.Label style={{color: 'var(--info)'}}>Your interest?</Form.Label>
+                                            <Form.Control as="textarea" rows="3" />
+                                        </Form.Group>
+                                        <Row className="d-flex justify-content-center">
+                                            <p><br /><Button variant="primary">Send Request</Button><br /></p>
+                                        </Row>
                                 </Form>
                             </Col>
-                            <Col>
-                                
-                            </Col>
+                                <Col>
+                                <p>Send us an email or give us a call to see how we can help you with your next event, party, meeting, or wedding!</p>
+                                <hr></hr>
+                                <h4><span>{map}</span> 115 East Clark Street, Bartlett, TX 76500</h4>
+                                <br/>
+                                {/* <h4><span>{store}</span> P.O.Box 9, Bartlett, TX 76500</h4> */}
+                                <h4><span>{email}</span> hello@bartlettvenue.com</h4>
+                                <br/>
+                                <h4><span>{phone}</span> +1 512 964 9473</h4>
+
+                                </Col>
                         </Row>
                     </Container>
                 </Col>

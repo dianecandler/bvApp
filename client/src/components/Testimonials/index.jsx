@@ -35,7 +35,7 @@ export default function index() {
                                 <Card.Body>
                                     <blockquote className="blockquote mb-0">
                                         <p>We decided to bring family together to celebrate Independence Day this year.  We rented the Pesky Rabbit and brought in our own BBQ with all the fixings.  We used their system to play music and at the end of the evening we all went outside to light up sparklers.  Such a relaxing place.  Love the brick streets and old buildings.  Very cool.  We will return!</p>
-                                        <footer className="blockquote-footer">Christine Dry <cite title="Source Title">, Dry Family Party Planner</cite></footer>
+                                        <footer className="blockquote-footer">Christine and Carol <cite title="Source Title">, Dry Family Party Planner</cite></footer>
                                     </blockquote>
                                 </Card.Body>
                             </Card>

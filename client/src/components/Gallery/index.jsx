@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
+// import {1x800x599} from './';
+// import {5x600x799} from "./BandPoster.jpg"
 
 export default function index() {
     return (

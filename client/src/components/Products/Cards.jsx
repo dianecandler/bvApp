@@ -1,5 +1,5 @@
 import React from 'react';
-import {CardDeck, Card} from 'react-bootstrap';
+import {CardDeck, Card, Button} from 'react-bootstrap';
 import Garden from './garden.jpg';
 import MM from './mb.jpg';
 import PR from './pr.jpg';
@@ -12,7 +12,7 @@ export default function cards() {
     <Card.Body>
       <Card.Title>Pesky Rabbit</Card.Title>
       <Card.Text>
-      Capacity of 120 for cocktails or 75 for seated buffet gatherings.  Garther around the antique bar or one of the vintage Jim Beam Whiskey Barrels.  1800 Sq.Ft.{' '}
+      Capacity of 120 for cocktails or 75 for seated buffet gatheringss.  Socialize around the antique bar or one of the vintage Jim Beam Whiskey Barrels.  1800 Sq.Ft.{' '}
         <ul>
           <li>Seats 50, Room Seats 75</li>
           <li>Antique Bar & Street Lamps</li>
@@ -26,7 +26,7 @@ export default function cards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <p style={{textAlign: 'center'}}><Button variant="primary">Book Event</Button></p>
     </Card.Footer>
   </Card>
   <Card>
@@ -46,7 +46,7 @@ export default function cards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <p style={{textAlign: 'center'}}><Button variant="primary">Book Event</Button></p>
     </Card.Footer>
   </Card>
   <Card>
@@ -64,8 +64,8 @@ export default function cards() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-      
+      {/* <small className="text-muted">Last updated 3 mins ago</small> */}
+      <p style={{textAlign: 'center'}}><Button variant="primary">Book Event</Button></p>
     </Card.Footer>
   </Card>
 </CardDeck>

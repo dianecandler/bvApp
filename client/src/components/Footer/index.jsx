@@ -15,8 +15,7 @@ export default function index() {
           <a style={{marginLeft:'2rem'}} href={Terms} target="_blank">Terms and Conditions</a>
           </Col>
           <Col xs={6} md={9}>
-            //!add copyright and fix image
-          <p>2020 Copyright &copy  designed by Diane Candler<Image src="Diane" thumbnail /></p>
+          <p>2020 Copyright &copy;  designed by Diane Candler<Image src={Diane} thumbnail /></p>
           </Col>
         </Row>
       </Container>
