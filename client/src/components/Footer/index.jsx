@@ -2,10 +2,11 @@
 import React from 'react';
 import Terms from './terms.pdf';
 import FAQ from './faq.pdf';
+import Pic from './diane.jpg';
 
 export default function index() {
   return (
-    <footer className="section $light-gray">
+    <footer className="section $light-gray bg-light">
       <div className="container">
 
         {/* <!-- Lines -->
@@ -69,8 +70,9 @@ export default function index() {
               </ul>
             </div>
           <div className="row mx-0">
-            <div className="col-md-6 col-lg-4 pl-0 pr-md-30px">
-              <p className="mb-0">© Diane Candler. 2020<br /> All Rights Resevered</p>
+            <div className="col-md-9 col-lg-6 pl-0 pr-md-30px">
+            <img src={Pic} style={{width:'10vw'}} />
+              <p className="mb-0"> © Diane Candler  -  2020 All Rights Resevered</p>
             </div>
             
             <div className="col-md-6 col-lg-4 pl-0 mt-5 mt-lg-0">
