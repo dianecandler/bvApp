@@ -11,7 +11,7 @@ export default function index() {
             <Row>
                 <Col className="text-center">
                     <h3>Gallery</h3>
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non, exercitationem delectus, ducimus minus laboriosam quisquam magni recusandae, voluptatum repellat debitis cumque at officiis amet doloribus rem quo inventore fugit.</h6>
+                    <h6> Host your next Event - Wedding - Quinceanera - Family Reunion - Business Meeting - Christmas Party - Private Dinner, Retirement Celebration - Briday Shower - Birthday Party - Baptism Celebration - Holiday Party - Baby Shower - Graduation Celebration</h6>
                     <br/>
                 </Col>
             </Row>
