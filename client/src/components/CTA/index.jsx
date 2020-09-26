@@ -9,8 +9,9 @@ export default function index() {
                     <Col>
                         <div className="text-center border border-dark p-5">
                             <h1>Host your next event here!</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum inventore rerum, quaerat itaque numquam enim, perferendis dicta necessitatibus blanditiis impedit facilis esse soluta error asperiores in eum doloremque beatae.</p>
-                            <p><Button variant="primary">Book Now</Button></p>
+                            <h6>Bartlett Venue offers a unique main street storefront setting in historic Bartlett, Texas.</h6>
+                            <p>Minutes from Georgetown and Temple, Texas, this venue is perfect for those seeing vintage character, modern comforts, and a unique setting!</p>
+                            <p style={{fontSize: 'extra small'}}><Button variant="primary">Book Now</Button></p>
                         </div>
                     </Col>
                 </Row>
