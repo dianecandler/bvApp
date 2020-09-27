@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faEnvelope, faPhone, faBuilding } from '@fortawesome/free-solid-svg-icons';
 const map = <FontAwesomeIcon icon={faMapMarkerAlt} />
-// const store = <FontAwesomeIcon icon={fasStores} />
+const building = <FontAwesomeIcon icon={faBuilding} />
 const email = <FontAwesomeIcon icon={faEnvelope} />
 const phone = <FontAwesomeIcon icon={faPhone} />
 
@@ -55,9 +55,10 @@ export default function index() {
                                 <Col>
                                 <p>Send us an email or give us a call to see how we can help you with your next event, party, meeting, or wedding!</p>
                                 <hr></hr>
-                                <h4><span>{map}</span> 115 East Clark Street, Bartlett, TX 76500</h4>
+                                <h4><span>{map}</span> 107 East Clark Street, Bartlett, TX 76500</h4>
                                 <br/>
-                                {/* <h4><span>{store}</span> P.O.Box 9, Bartlett, TX 76500</h4> */}
+                                <h4><span>{building}</span> P.O.Box 9, Bartlett, TX 76500</h4>
+                                <br/>
                                 <h4><span>{email}</span> hello@bartlettvenue.com</h4>
                                 <br/>
                                 <h4><span>{phone}</span> +1 512 964 9473</h4>
