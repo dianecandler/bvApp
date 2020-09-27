@@ -1,4 +1,5 @@
 export const photos = [
+
   {
     src: './images/Gallery/Gallery1.jpg',
     // 800x599 1
@@ -67,3 +68,4 @@ export const photos = [
     height: 3
   },
 ];
+
