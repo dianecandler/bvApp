@@ -13,6 +13,7 @@ export default function index() {
     <Container style={{ marginBottom: '5rem', marginTop: '1rem', padding: '1rem' }}>
       <Row>
         <Col xs={6}>
+          <hr></hr>
           <p>The Bartlett Historic District, listed on the National Register of Historic Places, stands as a cohesive group of early 1900s commercial buildings, and reflects the town's prosperity achieved during the early 20th century as a cotton shipping center in central Texas. Nearly 90 percent of the buildings in the district are historically significant.</p>
           <br />
           <p>
@@ -20,8 +21,10 @@ export default function index() {
           <br />
           <p>This is a hot spot for movie making!  You may have seen “The Lost Husband”, “Stars over Henrietta”, remake of “True Grit”, “Walking Dead”, and others.
           </p>
+          <hr></hr>
         </Col>
         <Col xs={6}>
+          <br />
           <Carousel>
             <Carousel.Item>
               <img
