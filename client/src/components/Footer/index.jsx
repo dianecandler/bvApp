@@ -11,8 +11,8 @@ export default function index() {
       <Container style={{marginTop:'4rem', padding:'1rem'}}>
         <Row>
           <Col xs={6} md={3}>
-          <a href={FAQ} target="_blank" >FAQs</a>
-          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank">Terms and Conditions</a>
+          <a href={FAQ} target="_blank" rel="noopener noreferrer" >FAQs</a>
+          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank" rel="noopener noreferrer" >Terms and Conditions</a>
           </Col>
           <Col xs={6} md={9}>
           <p>2020 Copyright &copy;  designed by Diane Candler<Image src={Diane} thumbnail /></p>

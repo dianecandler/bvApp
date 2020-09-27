@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
 import { PSWaiver } from "../PSWaiver.pdf"
