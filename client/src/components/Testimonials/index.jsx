@@ -10,7 +10,7 @@ export default function index() {
             <Carousel.Item>
                 <Container className="border border-dark p-3">
                     <Row>
-                        <Col><img className="w-100" src={Client1} alt="" /></Col>
+                        <Col><img className="w-100" src={Client1} alt="client photo1"/></Col>
                         <Col>
                             <Card style={{border: "none"}}>
                                 <Card.Header>Wedding Ceremony and Reception</Card.Header>
@@ -28,7 +28,7 @@ export default function index() {
             <Carousel.Item>
                 <Container className="border border-dark p-3">
                     <Row>
-                        <Col><img className="w-100" src={Client2} alt="" /></Col>
+                        <Col><img className="w-100" src={Client2} alt="client photo2" /></Col>
                         <Col>
                         <Card style={{border: "none"}}>
                                 <Card.Header>Independence Day Celebration</Card.Header>
@@ -46,7 +46,7 @@ export default function index() {
             <Carousel.Item>
                 <Container className="border border-dark p-3">
                     <Row>
-                        <Col><img className="w-100" src={Client3} alt=""/></Col>
+                        <Col><img className="w-100" src={Client3} alt="client photo3"/></Col>
                         <Col>
                         <Card style={{border: "none"}}>
                                 <Card.Header>Baby Shower</Card.Header>
