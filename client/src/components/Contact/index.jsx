@@ -9,10 +9,11 @@ const phone = <FontAwesomeIcon icon={faPhone} />
 
 export default function index() {
     return (
-        <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+        <Container style={{ marginTop: '1rem', marginBottom: '2rem' }}>
             <Row>
                 <Col>
                     <h3>Contact Bartlett Venue</h3>
+                    <br />
                     <Container>
                         <Row>
                             <Col>
@@ -54,7 +55,7 @@ export default function index() {
                             </Col>
                                 <Col>
                                 <p>Send us an email or give us a call to see how we can help you with your next event, party, meeting, or wedding!</p>
-                                <hr></hr>
+                                <br />
                                 <h4><span>{map}</span> 107 East Clark Street, Bartlett, TX 76500</h4>
                                 <br/>
                                 <h4><span>{building}</span> P.O.Box 9, Bartlett, TX 76500</h4>
