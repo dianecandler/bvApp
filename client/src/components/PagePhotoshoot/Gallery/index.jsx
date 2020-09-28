@@ -21,14 +21,14 @@ export default function index() {
             <Row className="d-flex justify-content-center" style={{paddingTop: '2rem'}}>        
                     <h2 style={{ textAlign: "center" }}>Book Your Photoshoot</h2>
                     <p style={{ color: 'light-grey' }}>
-                        The City of Bartlett offers numerous opportunities for unique photos and the Bartlett Venue is an ideal backdrop for amateurs and professional photographers.  Spend your two hours in the Pesky Rabbit, Mockingbird Market, Garden then explore the historic area and rural farm and ranch land surrounding the area.
+                        Histori Downtown Bartlett offers numerous opportunities for unique photos and the Bartlett Venue is an ideal backdrop for amateurs and professional photographers.  Spend your two hours in the Pesky Rabbit, Mockingbird Market, Garden then explore the historic downtorn and rural farm and ranch land surrounding the area.
                     </p>
                     <Row>
                         <Col xs={3}>
                             <h3>$100/two hours</h3>
                         </Col>
                         <Col xs={9}>
-                            <p>Enjoy the recently restored murals around Bartlett including the 1920 vintage mural on the alley wall of the Mockingbird Market.</p>
+                            <p>Enjoy the recently restored murals around Bartlett including the 1920 vintage mural on the alley wall of Mockingbird Market.</p>
                         </Col>
                     </Row>
                     <Row style={{paddingBottom: '2rem'}}>
