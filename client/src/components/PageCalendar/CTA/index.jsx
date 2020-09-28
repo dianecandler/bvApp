@@ -31,9 +31,9 @@ export default function index() {
                 <Row>
                     <Col>
                         <div className="text-center border border-dark p-5">
-                            <h2>Lets get started!</h2>
+                            <h2><strong>Lets get started!</strong></h2>
                             <hr />
-                            <h5>Select the date to host your event</h5>
+                            <h5>Select the date to host your event.</h5>
                             <br />
                             <DayPickerInput
                                 formatDate={formatDate}

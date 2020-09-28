@@ -35,8 +35,7 @@ export default function cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <p style={{ textAlign: 'center' }}><Button variant="primary">Book Weekend</Button></p>
-          <p style={{ textAlign: 'center' }}><Button variant="primary">Book Weekday</Button></p>
+        <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
         </Card.Footer>
       </Card>
       <Card>
@@ -62,7 +61,7 @@ export default function cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <p style={{ textAlign: 'center' }}><Button variant="primary">Book Weekend</Button></p>
+        <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
         </Card.Footer>
       </Card>
       <Card>
@@ -86,8 +85,7 @@ export default function cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <p style={{ textAlign: 'center' }}><Button variant="primary">Book All Inclusive Saturday</Button></p>
-          <p style={{ textAlign: 'center' }}><Button variant="primary">Book All Inclusive Sunday</Button></p>
+          <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
         </Card.Footer>
       </Card>
     </CardDeck>
