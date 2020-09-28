@@ -13,11 +13,6 @@ export default function index() {
                     <h4>Bartlett is minutes from . . .</h4>
                     <br />
                     <ul>
-                        {/* <li><a href="https://dales-essenhaus.com/index.php>Dale's Essenhaus</a></li>
-                        // <li><a href="https://walburgrestaurant.net/"> Walburg German Restaurant &amp; Biergarten </a></li> */}
-                    {/* // </Col>"
-                    //     <li> north of Georgetown and south of Temple, just east of I-35</li>
-                    //     {/* <li> <a href="https://dales-essenhaus.com/index.php" target="_blank" rel="noopener noreferrer"/> Dales's Essenhaus &amp; Walburg Merchantile in Walburg</a></li> */}
                     <li><strong><a href="https://dales-essenhaus.com/">Dale's Essenhaus</a></strong> in Walburg</li>
                     <li><strong><a href="https://walburgrestaurant.net/">Walburg German Restaurant &amp; Biergarten</a></strong> in Walburg</li>
                     <li><strong><a href="https://www.txolive.com/">Central Texas Olive Ranch</a></strong> outside Walburg</li>
@@ -29,11 +24,12 @@ export default function index() {
                     <li><strong><a href="https://www.tripadvisor.com/Attraction_Review-g56604-d10145562-Reviews-Fletchers_Books_Antiques-Salado_Texas.html">Fletchers Books &amp; Antiques</a></strong> is worth a stop if you are in Salado.</li>
                     <li>Great Kayaking &amp; fishing at <strong><a href="https://www.recreation.gov/camping/campgrounds/232745">Wills Creek Park></a></strong> on Lake Granger</li>
                     <li>If golf is more your style, try <strong><a href="https://www.wilco.org/Departments/Parks-Recreation/County-Parks/Berry-Springs-Park"> Berry Springs Park and Preserve</a></strong></li>
-                    <li><strong><a href="https://verandabloom.com/">Veranda Bloom</a></strong>, unique Home Decor and worth a trip to Rogers! </li>
+                    <li><strong><a href="https://verandabloom.com/">Veranda Bloom</a></strong> offers unique Home Decor. Worth a trip to Rogers! </li>
+                    <li><strong>Georgetown </strong>&amp;<strong> Temple</strong>, just east of I-35 exits Ronald Reagan Blvd or  FM 487 </li>
                     </ul>
-                    <h6>Historic area nestled between commercial farms and cattle ranches. Feel the stress fall away as you drive off the interstate and into Bartlett!</h6>
-                    <li> Click on map on the left for Google map, directions.</li>
-                </Col> */}
+                    <h6>Bartlett is situated in both Williamson &amp; Bell Counties, and nestled between commercial farms &amp; cattle ranches. Feel the stress fall away as you drive off the interstate and into this historic town!</h6>
+                     <p>Click on the map (left) for directions.</p>
+                </Col>
             </Row>
         </Container>
     )
