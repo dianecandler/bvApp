@@ -11,7 +11,7 @@ export default function index() {
                 <Col className="text-center">
                     <h3>Photoshoot Gallery</h3>
                     <br />
-                    <p style={{ color: 'light-grey' }}>Experience the architecture and drama of these 120-year-old retail builsings in the Bartlett Downtown Historic District.  Come find out why movie makers keep returning to this main street American hometown.  Take advantage of the charm of the Pesky Rabbit, elegance of Mockingbird Market, beautiful Garden area, and archecture on our bricked streets and interesting alleys.</p>
+                    <p style={{ color: 'light-grey' }}>Experience the architecture and drama of these 120-year-old retail buildings in the Bartlett Downtown Historic District.  Come find out why movie makers keep returning to this main street American hometown.  Take advantage of the charm of the Pesky Rabbit, elegance of Mockingbird Market, beautiful Garden area, and archecture on our bricked streets and interesting alleys.</p>
                     <br />
                 </Col>
             </Row>
@@ -32,7 +32,7 @@ export default function index() {
                         </Col>
                     </Row>
                     <Row style={{paddingBottom: '2rem'}}>
-                        <h5>For more informatoin or to schedule a photoshoot, please submit your request and sign the Waiver.  We will reply with a details email regarding scheduling, payment, and waivers for all on-site guests.</h5>
+                        <h5>For more informatoin or to schedule a photoshoot, please submit your request and sign the Photoshoot Waiver.  We will reply with a detailed email regarding scheduling, payment, and waivers for all on-site guests.</h5>
                     </Row>
                          <br /><br />
                     <Row style={{ justifyContent: 'center', fontSize: '10px' }}>
