@@ -16,7 +16,7 @@ export default function index() {
                                 <Card.Header>Wedding Ceremony and Reception</Card.Header>
                                 <Card.Body>
                                     <blockquote className="blockquote mb-0">
-                                        <p>Mockingbird Market was the perfect place for my son's wedding ceremony.  We enjoyed bringing personal items and decorating the windows and display cabinet.  Pesky Rabbit was awesome for the reception and dance.  We set up Corn Hole in the Garden.  Such an easy event.  We even set up our BBQ grill in the alley.</p>
+                                        <p>Mockingbird Market was the perfect place for our kids' wedding ceremony.  We enjoyed bringing personal items and decorating the windows and display cabinet.  Pesky Rabbit was awesome for the reception and dance.  We set up Corn Hole in the Garden.  Such an easy event.  We even set up our BBQ grill in the alley.</p>
                                         <footer className="blockquote-footer">Mary Gallander and Family <cite title="Source Title"></cite></footer>
                                     </blockquote>
                                 </Card.Body>
@@ -52,7 +52,7 @@ export default function index() {
                                 <Card.Header>Baby Shower</Card.Header>
                                 <Card.Body>
                                     <blockquote className="blockquote mb-0">
-                                        <p>Our first grandchild is expected anytime.  We decided to give our daughter a very special baby shower and rented Mockingbird Market.  What a great place with wonderful light.  Our snapshots turned out amazing thanks to natural lighting.  We looked like professional photographers!  Lovely time and great venue hosts. Plenty of parking. Easy planning. Highly recommend this place!</p>
+                                        <p>Our first grandchild is expected anytime.  We decided to give our daughter a very special baby shower and rented Mockingbird Market.  What a great place with wonderful light.  Our snapshots turned out amazing thanks to all the natural light.  We looked like professional photographers!  Lovely time &amp; great venue hosts. Plenty of parking. Easy planning. Highly recommend this place!</p>
                                         <footer className="blockquote-footer">Cathy Umiker<cite title="Source Title">, Jessica's proud Grandmother</cite></footer>
                                     </blockquote>
                                 </Card.Body>
