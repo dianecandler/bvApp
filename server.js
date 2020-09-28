@@ -15,7 +15,7 @@ if(process.env.NODE_ENV !== 'production'){app.use(express.static("client/build")
 // MongoDB
 const mongoose = require('mongoose');
 // connect Mongoose to mongodb with db named venueapp
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/bvApp');
+mongoose.connect(process.env.MONGODB_URI);
 
 // Port for BE
 const PORT = process.env.PORT || 3001;
