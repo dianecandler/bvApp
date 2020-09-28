@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import CTA from './CTA';
 
 export default function index() {
     return (
         <div>
-            Coming Soon!
+            <CTA />
         </div>
     )
 }
