@@ -1,3 +1,4 @@
+// CTA is a call to action, encouraging bookings, button moves users to Calendar to start booking
 import React from 'react';
 import { Button, Jumbotron, Container, Row, Col } from 'react-bootstrap';
 

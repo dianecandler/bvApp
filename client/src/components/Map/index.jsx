@@ -1,3 +1,4 @@
+// Map with link to Google to request directions - used on HomePage, VenuePage, AboutPage
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Map from './Map.png';

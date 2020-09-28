@@ -1,3 +1,4 @@
+// Calendar drives booking - once dates selected, shows available products & drives user to Registration
 import React from 'react';
 
 import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
