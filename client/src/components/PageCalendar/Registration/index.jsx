@@ -14,7 +14,7 @@ export default function index() {
         <Container style={{ marginTop: '8rem', marginBottom: '2rem' }}>
             <Row>
                 <Col>
-                    <h3>Please complete to book your event with us.</h3>
+                    <h3>Please complete and submit your reseration request.</h3>
                     <br /><br />
                     <Container>
                         <Row>
@@ -79,8 +79,8 @@ export default function index() {
                                     src={Image}
                                     alt="Pesky Rabbit"
                                 />
-                                <p>Confirmation for your Booking will be sent to you via email shortly. Try your spam or junk folder if you do not see this email.</p>
-                                <p>We will contact you for your deposit.  To confirm your date, we must receive your deposit.</p>
+                                <p>Look for an email confirming your reservation request.  Try your spam or junk folder if you do not see your confirmation email.</p>
+                                <p>To hold your reservation, we must receive your event deposit.  We will contact you for your deposit.</p>
                                 <h5><span>{map}</span> 107 East Clark Street, Bartlett, TX 76500</h5> <br />
                                 <h5><span>{building}</span> P.O.Box 9, Bartlett, TX 76500</h5>                                  <br />
                                 <h5><span>{email}</span> hello@bartlettvenue.com</h5><br />

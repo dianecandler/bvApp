@@ -6,8 +6,8 @@ import PR from './pr.jpg';
 
 export default function cards() {
   return (
-    <Container>
-      <h2>Select from the available options . . .</h2>
+    <Container style={{padding: '2rem'}}>
+      
       <CardDeck>
         <Card>
           <Card.Img variant="top" src={PR} />
@@ -18,12 +18,12 @@ export default function cards() {
               <br />
               <ul>
                 <li>Minimuum 2 hours + 2 hours cleaning for 4 hour total</li>
-                <li>Deposit required to hold booking</li>
+                <li>Deposit of 50% is required to hold booking</li>
                 <li>$xxx for 4 hours - WEEKDAY</li>
                 <li>$xxx for 4 hours - WEEKEND</li>
                 <li>$xxx for every additional hour</li>
                 <li>Add $100 for 2 hour photoshoot</li>
-                <li>1 hour planning meeting included</li>
+                <li>Includes 1 hour event meeting</li>
               </ul>
             </Card.Text>
           </Card.Body>
@@ -40,12 +40,12 @@ export default function cards() {
               <br />
               <ul>
                 <li>Minimuum 2 hours + 2 hours cleaning for 4 hour total</li>
-                <li>Deposit required to hold booking</li>
+                <li>Deposit of 50% is required to hold booking</li>
                 <li>$xxx for 4 hours - WEEKDAY</li>
                 <li>$xxx for 4 hours - WEEKEND</li>
                 <li>$xxx for every additional hour</li>
                 <li>Add $100 for 2 hour photoshoot</li>
-                <li>1 hour planning meeting included</li>
+                <li>Includes 1 hour event meeting</li>
               </ul>
             </Card.Text>
           </Card.Body>
@@ -61,10 +61,11 @@ export default function cards() {
               Pesky Rabbit, Mockingbird Market, outside Garden, &amp; 2-hour photoshoot!{' '}
               <br />
               <ul>
-                <li>SATURDAY $xxx for event between 10am-10pm, set-up starts after 8am, finish clean-up by midnight.</li>
-                <li>SUNDAY $xxx for event between 10am-7pm, set-up starts after 8am, finish clean-up by 7pm.</li>
-                <li>Allow for at minimum 1 hour set-up and 2 hours for clean-up.</li>
-                <li>1 hour planning meeting included</li>
+                <li>SATURDAY $xxx for event between 10am-10pm, set-up after 8am, finish clean-up by midnight</li>
+                <li>SUNDAY $xxx for 6 hour event between 10am-7pm, set-up after 8am, finish clean-up by 7pm</li>
+                <li>Deposit of 50% is required to hold booking</li>
+                <li>Minimum 1 hour set-up and 2 hours for clean-up</li>
+                <li>Includes 1 hour event meeting</li>
               </ul>
             </Card.Text>
           </Card.Body>
