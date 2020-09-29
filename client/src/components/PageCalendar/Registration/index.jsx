@@ -1,7 +1,9 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, InputGroup, FormControl, Radio } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhone, faBuilding } from '@fortawesome/free-solid-svg-icons';
+import Image from './BlackWhite.jpg';
+
 const map = <FontAwesomeIcon icon={faMapMarkerAlt} />
 const building = <FontAwesomeIcon icon={faBuilding} />
 const email = <FontAwesomeIcon icon={faEnvelope} />
@@ -43,6 +45,7 @@ export default function index() {
                                                 <Form.Control placeholder="+1 234 567 8900" />
                                             </Form.Group>
                                         </Col>
+ 
                                     </Row>
                                     <Form.Group controlId="exampleForm.ControlTextarea1">
                                         <Form.Label style={{ color: 'var(--info)' }}>Describe your event</Form.Label>
@@ -52,37 +55,37 @@ export default function index() {
                                         <Form.Label style={{ color: 'var(--info)' }}>Questions?</Form.Label>
                                         <Form.Control as="textarea" rows="3" />
                                     </Form.Group>
+                                    <Row style={{ paddingLeft: '1rem' }}>
+                                            <Col>
+                                                <Form.Group controlId="formBasicCheckbox">
+                                                    <Form.Check type="checkbox" label="Terms &amp; Conditions" />
+                                                </Form.Group>
+                                                <Form.Group controlId="formBasicCheckbox">
+                                                    <Form.Check type="checkbox" label="Privacy Policy" />
+                                                </Form.Group>
+                                                <Form.Group controlId="formBasicCheckbox">
+                                                    <Form.Check type="checkbox" label="Validated All Information" />
+                                                </Form.Group>
+                                            </Col>
+                                        </Row>
                                     <Row className="d-flex justify-content-center">
-                                        <p><br /><Button variant="primary">Send Request</Button><br /></p>
+                                        <p><br /><Button variant="primary">SUBMIT</Button><br /></p>
                                     </Row>
                                 </Form>
                             </Col>
                             <Col>
-                                <Form.Group controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label style={{ color: 'var(--info)' }}>Describe your event</Form.Label>
-                                    <Form.Control as="textarea" rows="3" />
-                                </Form.Group>
-                                <Form.Group controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label style={{ color: 'var(--info)' }}>Questions?</Form.Label>
-                                    <Form.Control as="textarea" rows="3" />
-                                </Form.Group>
+                                <img
+                                    className="d-block w-35"
+                                    src={Image}
+                                    alt="Pesky Rabbit"
+                                />
+                                <p>Confirmation for your Booking will be sent to you via email shortly. Try your spam or junk folder if you do not see this email.</p>
+                                <p>We will contact you for your deposit.  To confirm your date, we must receive your deposit.</p>
+                                <h5><span>{map}</span> 107 East Clark Street, Bartlett, TX 76500</h5> <br />
+                                <h5><span>{building}</span> P.O.Box 9, Bartlett, TX 76500</h5>                                  <br />
+                                <h5><span>{email}</span> hello@bartlettvenue.com</h5><br />
+                                <h5><span>{phone}</span> +1 512 964 9473</h5>
                             </Col>
-                                    <Row style={{ paddingTop: '8rem'}}>
-                                        <Col>
-                                   <p>Confirmation for your Booking will be sent to your email shortly. Try your spam or junk folder if you do not see this email.</p>
-                                   <p>We will contact you for your deposit.  To confirm your date, we must receive your deposit.</p>
-                                            <h4><span>{map}</span> 107 East Clark Street, Bartlett, TX 76500</h4>
-                                            
-                                            <br />
-                                        </Col>
-                                        <Col>
-                                            <h4><span>{building}</span> P.O.Box 9, Bartlett, TX 76500</h4>
-                                            <br />
-                                            <h4><span>{email}</span> hello@bartlettvenue.com</h4>
-                                            <br />
-                                            <h4><span>{phone}</span> +1 512 964 9473</h4>
-                                        </Col>
-                                    </Row>
                         </Row>
                     </Container>
                 </Col>

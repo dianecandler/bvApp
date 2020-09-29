@@ -1,4 +1,4 @@
-g// Information about area, carousel of area interests
+// Information about area, carousel of area interests
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import Image1 from './Image1.jpg';
