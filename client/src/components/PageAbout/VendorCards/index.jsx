@@ -5,9 +5,12 @@ import DJ from './DJ.jpg';
 import Dance from './Dance.jpg';
 import Bank from './Bank.jpg';
 import Bank2 from './2Bank.jpg';
+import Bank3 from './Bank3.jpg';
+import Prom from './Prom.jpg';
 
 export default function cards() {
   return (
+    <div><h2 style={{paddingLeft: '2rem'}}>Explore how easy it is to shop local in Bartlett</h2>
     <CardDeck>
       <Card>
         <Card.Img variant="top" src={DJ} alt="DJ" />
@@ -28,6 +31,7 @@ export default function cards() {
       </Card>
       <Card>
         <Card.Img variant="top" src={Florist} alt="florist" />
+       
         <Card.Body>
           <Card.Title>Local Florist</Card.Title>
           <Card.Text>
@@ -41,6 +45,7 @@ export default function cards() {
               <li>Look for them on <strong><a href="https://www.facebook.com/Unique-Celebrations-154985771206579/">Facebook</a></strong></li>
             </ul>
           </Card.Text>
+          <Card.Img variant="bottom" src={Prom} alt="BnB" />
         </Card.Body>
       </Card>
       <Card>
@@ -58,8 +63,10 @@ export default function cards() {
               </ul>
              </Card.Text>
         </Card.Body>
+        <Card.Img style={{paddingBottom: "1rem"}} src={Bank3} alt="BnB" />
         <Card.Img variant="bottom" src={Bank2} alt="BnB" />
      </Card>
 </CardDeck>
+</div>
     )
 }
