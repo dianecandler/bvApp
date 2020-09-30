@@ -28,7 +28,8 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.10.5",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "react-day-picker": "^7.4.8"
   },
   "homepage": "https://github.com/dianecandler/bvApp#readme"
 }

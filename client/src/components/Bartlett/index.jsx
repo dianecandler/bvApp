@@ -15,14 +15,12 @@ export default function index() {
       <Row>
         <Col xs={6}>
           <hr></hr>
-          <p>The Bartlett Historic District, listed on the National Register of Historic Places, stands as a cohesive group of early 1900s commercial buildings, and reflects the town's prosperity achieved during the early 20th century as a cotton shipping center in central Texas. Nearly 90 percent of the buildings in the district are historically significant.</p>
-          <br />
-          <p>
-            Photographers and movie makers alike find the charm and historic area the ideal backdrop for their creativity.  See if you can find the more than six historic murals.  Somewhere added in the days of the Model T while others were added for movie sets. </p>
-          <br />
-          <p>This is a hot spot for movie making!  You may have seen “The Lost Husband”, “Stars over Henrietta”, remake of “True Grit”, “Walking Dead”, and others.
-          </p>
-          <hr></hr>
+          <p>The Bartlett Historic District, listed on the National Register of Historic Places, stands as a cohesive group of early 1900s commercial buildings, and reflects the town's prosperity achieved during the early 20th century as a cotton shipping center in central Texas. Nearly 90 percent of the buildings in the district are historically significant. Bartlett is named for John T. Bartlett, who with J. E. Pietzsch donated the land for a townsite.</p>
+          
+          <p>Photographers &amp; movie makers alike find this charming historic area an ideal backdrop. This is a hot spot for movie making!</p>
+            
+          <p>Movies shot here: “The Lost Husband” w/Josh Duhamel &amp; Leslie Bibb, “The Stars Fell on Henrietta” with Robert Duvall &amp; Brian Dennehy, remake of “True Grit” w/Jeff Bridges &amp; Matt Damon, “Walking Dead”, "Revolution", "The Whole Wide World" w/Renee Zellweger, "The Newton Boys" w/Matthew McDonaughey, "Texas Justice" w/Peter Strauss &amp; Heather Locklear, plus others. </p>
+       
         </Col>
         <Col xs={6}>
           <br />
@@ -67,6 +65,7 @@ export default function index() {
           </Carousel>
         </Col>
       </Row>
+      <p Style={{ textAlign: 'center' }}>   Find all 6 historic murals...figure out which were added in the days of the Model T while others for movie sets. Enjoy exploring downtown!</p>
     </Container>
   )
 }
