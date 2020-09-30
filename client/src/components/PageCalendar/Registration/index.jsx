@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button, InputGroup, FormControl, Radio } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, InputGroup, FormControl, Radio, Link } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhone, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import Image from './BlackWhite.jpg';
+import Terms from './Terms.pdf';
+import Privacy from './Privacy.pdf';
 
 const map = <FontAwesomeIcon icon={faMapMarkerAlt} />
 const building = <FontAwesomeIcon icon={faBuilding} />
@@ -45,7 +47,7 @@ export default function index() {
                                                 <Form.Control placeholder="+1 234 567 8900" />
                                             </Form.Group>
                                         </Col>
- 
+
                                     </Row>
                                     <Form.Group controlId="exampleForm.ControlTextarea1">
                                         <Form.Label style={{ color: 'var(--info)' }}>Describe your event.<br />Event title, number of guests, type of party, food plan, seated or cocktail, alcohol served, event hours, special needs, etc.</Form.Label>
@@ -56,20 +58,27 @@ export default function index() {
                                         <Form.Control as="textarea" rows="3" />
                                     </Form.Group>
                                     <Row style={{ paddingLeft: '1rem' }}>
-                                            <Col>
-                                                <Form.Group controlId="formBasicCheckbox">
-                                                    <Form.Check type="checkbox" label="Terms &amp; Conditions" <a href={Terms} target="_blank" rel="noopener noreferrer" >Terms and Conditions</a>/>
-                                                             
-         
-                                                </Form.Group>
-                                                <Form.Group controlId="formBasicCheckbox">
-                                                    <Form.Check type="checkbox" label="Privacy Policy" />
-                                                </Form.Group>
-                                                <Form.Group controlId="formBasicCheckbox">
-                                                    <Form.Check type="checkbox" label="Validated All Information" />
-                                                </Form.Group>
-                                            </Col>
-                                        </Row>
+                                        <Col>
+                                            <InputGroup className="inputTerms mb-3">
+                                                <InputGroup.Prepend className="inputgroupprependTerms">
+                                                    <InputGroup.Checkbox className="inputgroupcheckboxTerms" aria-label="Checkbox for following text input" />
+                                                </InputGroup.Prepend>
+                                                <Form.Text className="inputgrouplinkTerms"><a href={Terms} target="_blank" rel="noopener noreferrer" className="linkTerms">Terms &amp; Conditions</a></Form.Text>
+                                            </InputGroup>
+                                            <InputGroup className="inputTerms mb-3">
+                                                <InputGroup.Prepend className="inputgroupprependTerms">
+                                                    <InputGroup.Checkbox className="inputgroupcheckboxTerms" aria-label="Checkbox for following text input" />
+                                                </InputGroup.Prepend>
+                                                <Form.Text className="inputgrouplinkTerms"><a href={Privacy} target="_blank" rel="noopener noreferrer" className="linkTerms">Privacy Policy</a></Form.Text>
+                                            </InputGroup>
+                                            <InputGroup className="inputTerms mb-3">
+                                                <InputGroup.Prepend className="inputgroupprependTerms">
+                                                    <InputGroup.Checkbox className="inputgroupcheckboxTerms" aria-label="Checkbox for following text input" />
+                                                </InputGroup.Prepend>
+                                                <Form.Text className="inputgrouplinkTerms">Validated All Information</Form.Text>
+                                            </InputGroup>
+                                        </Col>
+                                    </Row>
                                     <Row className="d-flex justify-content-center">
                                         <p><br /><Button variant="primary">SUBMIT</Button><br /></p>
                                     </Row>

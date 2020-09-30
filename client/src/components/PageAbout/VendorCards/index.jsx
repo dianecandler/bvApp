@@ -42,7 +42,7 @@ export default function cards() {
               <li>254 527-3324</li>
               <li>Debbie Wendler, Owner</li>
               <li>Located just 1/2 block from Bartlett Venue</li>
-              <li>Look for them on <strong><a href="https://www.facebook.com/Unique-Celebrations-154985771206579/">Facebook</a></strong></li>
+              <li>Look for them on <strong><a href="https://www.facebook.com/Unique-Celebrations-154985771206579/" target="blank" rel="noopener noreferrer">Facebook</a></strong></li>
             </ul>
           </Card.Text>
           <Card.Img variant="bottom" src={Prom} alt="BnB" />

@@ -18,7 +18,7 @@ body {
         color: $bittersweet;
 
         &:hover {
-            color: red;
+            color: $oxford-blue;
         }
     }
     p  {
@@ -33,4 +33,13 @@ body {
 
 .logo {
     color: darken($secondary, 20%) !important;
+}
+
+.inputTerms {
+    background-color: #ffffff !important;
+    border: none !important;
+
+    .inputgrouplinkTerms {
+        padding-left: .5rem;
+    }
 }
