@@ -94,3 +94,12 @@ Photoshoot edits
     ✔ remove "the" before MM in 2nd paragraph - @done (9/28/2020, 9:15:47 AM)
     ✔ changed final paragraph "details" to detailed @done (9/28/2020, 9:15:48 AM)
 
+
+    Calendar
+    ✔ Add React Day Picker (npm) to Client     "react-bootstrap": "^1.3.0", @done (9/28/2020, 11:19:05 AM)
+    ✔ Frame calendar - day selection @done (9/28/2020, 11:19:11 AM)
+    ☐ Frame calendar - show disabled dates on calendar
+    ☐ Frame products - show available products for day selected
+    ☐ Define form for input based on Calendar
+    ☐ Define db tables to match data requested
+

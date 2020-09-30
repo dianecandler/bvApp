@@ -96,6 +96,17 @@
         3.  Could use another week of tutorials and practice to become more comfortable with testing.  Hoping to include more testing but concerned with delivering critical MVP by myself.  2-3 weeks is not a lot of time to create a full business website.
         4.  Limited University of Texas resources.  50 minutes of 1x1 tutoring, 3 hours/week of office hours, 5 classes to talk through problems with my instructor and TA isn't a whole lot.  Planning questions and having enough understanding to use this time most effectively has been challenging.
         5.  Recognizing how much time is required to deliver results.  Luckily time flies when you are having fun! :smile:
-        
+    * Logic flow changes
+        * Currently not all products are available every day
+        * From homepage option to "Get Started" takes you to Calendar/Booking Page
+        * From homepage product card "Book Event" takes you to Calendar/Booking Page
+        * From Venue Rental page product card "check availability" takes you to Calendar/Booking Page
+        * Calendar page starts with calendar, shows product cards available for that day
+            * considers PR may be booked daily, MM & AI may only be booked weekends
+            * considers when one of the venue options is booked and will drop Book Now link
+    * Logic for Tables and Pricing
+        * Saturday/Sunday, Weekday prices are different
+        * Added charge for photoshoot and extra hours with single hall rental
+
 
 ##

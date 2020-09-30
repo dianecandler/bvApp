@@ -1,3 +1,4 @@
+// Brings together Area information, photo gallery, map, and email inquiry, Book a Tour CTA
 import React from 'react';
 import Venue from './Venue';
 import Bartlett from '../Bartlett';

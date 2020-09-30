@@ -28,7 +28,7 @@ export default function index() {
                             <a className="nav-link" href="/about-us">ABOUT US</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact-us">CONTACT US</a>
+                            <a className="nav-link" href="/contact-us">INQUIRE</a>
                         </li>
                     </ul>
                 </div>
