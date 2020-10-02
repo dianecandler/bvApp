@@ -98,8 +98,20 @@ Photoshoot edits
     Calendar
     ✔ Add React Day Picker (npm) to Client     "react-bootstrap": "^1.3.0", @done (9/28/2020, 11:19:05 AM)
     ✔ Frame calendar - day selection @done (9/28/2020, 11:19:11 AM)
-    ☐ Frame calendar - show disabled dates on calendar
-    ☐ Frame products - show available products for day selected
-    ☐ Define form for input based on Calendar
-    ☐ Define db tables to match data requested
+    ☐ Page-Calendar -- connect calendar, products, registartion and confirmation components
+        ✔ set up routes for get and post @done (10/2/2020, 12:01:46 PM)
+        ☐ set up models according to inforation needs
+        ☐ create controller to pass on information to database
+        ☐ setup utils folder with API routes using axios 
+    ☐ Frame Calendar - display show - hide prodcuts, register form and confirmations
+    ☐ Calendar Logic -- get date input and pass the value to the global state function
+    ☐ Once date is valid and not the past one, hide calendar and show products
+    ☐ Products Logic -- create a specific Id that let decide if the product is selected or not
+        ☐ If product is already in database then hide booking button for that products
+    ☐ If product selected, pass the value to the main page
+    ☐ Hide product page and show registration page
+    ☐ Form
+    ☐ Once form submit, get all the values and show the confirmation page
+        ☐ hide registration page
+    ☐ show back to home button
 

@@ -2,8 +2,10 @@
 const express = require('express');
 const app = express();
 
+require("dotenv").config();
+
 // Routes
-// ADD ROUTE LINK HERE
+const routes = require('./routes');
 
 // Define middleware
 app.use(express.urlencoded({extended: true}));
@@ -16,6 +18,9 @@ if(process.env.NODE_ENV !== 'production'){app.use(express.static("client/build")
 const mongoose = require('mongoose');
 // connect Mongoose to mongodb with db named venueapp
 mongoose.connect(process.env.MONGODB_URI);
+
+// Connect routes
+app.use(routes);
 
 // Port for BE
 const PORT = process.env.PORT || 3001;
