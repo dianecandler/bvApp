@@ -103,7 +103,7 @@ Photoshoot edits
         ✔ set up models according to inforation needs @done (10/2/2020, 12:07:04 PM)
         ✔ create controller to pass on information to database @done (10/2/2020, 12:10:19 PM)
         ✔ setup utils folder with API routes using axios @done (10/2/2020, 12:38:15 PM)
-    ☐ Frame Calendar - display show - hide prodcuts, register form and confirmations
+    ✔ Frame Calendar - display show - hide prodcuts, register form and confirmations @done (10/2/2020, 1:17:48 PM)
     ☐ Calendar Logic -- get date input and pass the value to the global state function
     ☐ Once date is valid and not the past one, hide calendar and show products
     ☐ Products Logic -- create a specific Id that let decide if the product is selected or not

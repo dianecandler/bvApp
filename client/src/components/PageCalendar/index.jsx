@@ -16,7 +16,7 @@ export default class index extends Component {
     render() {
         return (
             <div>
-                { this.state.showCalendar ? <Calendar /> : null}
+                { this.state.showCalendar ? <Calendar search={this.state.search} handleInputChange={this.handleInputChange} handleFormSubmit={this.handleFormSubmit}/> : null}
                 { this.state.showProducts ? <Products /> : null}
                 { this.state.showRegister ? <Register /> : null}
                 { this.state.showConfirmation ? <Confirmation /> : null}                
