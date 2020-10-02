@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardDeck, Card, Button, ListGroup } from 'react-bootstrap';
+import { CardDeck, Card, Button, ListGroup} from 'react-bootstrap';
 import Garden from './garden.jpg';
 import MM from './mb.jpg';
 import PR from './pr.jpg';
@@ -71,10 +71,15 @@ export default function cards() {
         </Card.Footer>
       </Card>
       <Card.Text>
+      <br /><br /><br />
         <h4><strong>Logistics:</strong> 50% deposit holds booking, Add hours if addtl Set-up &amp; Cleaning time is needed.  </h4>
+        <br />
         <h4><strong>Provided:</strong>  Wifi Throughout, ample parking on downtown brick streets, easy access, original 20ft ship lath ceilings, original brick and plaster walls, ample street lighted parking in front of the buildings, use of alley for All Inclusive bookings</h4>
+        <br />
         <h4><strong>Price Includes:</strong>  Pre-event 1 planning hour</h4>
+        <br />
         <h4><strong>Catering/Chairs:</strong>  Discuss catering options, $6/chair rental available</h4>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </Card.Text>
     </CardDeck>
     </div>
