@@ -17,7 +17,7 @@ if(process.env.NODE_ENV !== 'production'){app.use(express.static("client/build")
 // MongoDB
 const mongoose = require('mongoose');
 // connect Mongoose to mongodb with db named venueapp
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true,  useUnifiedTopology: true });
 
 // Connect routes
 app.use(routes);

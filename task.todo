@@ -102,7 +102,7 @@ Photoshoot edits
         ✔ set up routes for get and post @done (10/2/2020, 12:01:46 PM)
         ✔ set up models according to inforation needs @done (10/2/2020, 12:07:04 PM)
         ✔ create controller to pass on information to database @done (10/2/2020, 12:10:19 PM)
-        ☐ setup utils folder with API routes using axios 
+        ✔ setup utils folder with API routes using axios @done (10/2/2020, 12:38:15 PM)
     ☐ Frame Calendar - display show - hide prodcuts, register form and confirmations
     ☐ Calendar Logic -- get date input and pass the value to the global state function
     ☐ Once date is valid and not the past one, hide calendar and show products
