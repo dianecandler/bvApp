@@ -100,7 +100,7 @@ Photoshoot edits
     ✔ Frame calendar - day selection @done (9/28/2020, 11:19:11 AM)
     ☐ Page-Calendar -- connect calendar, products, registartion and confirmation components
         ✔ set up routes for get and post @done (10/2/2020, 12:01:46 PM)
-        ☐ set up models according to inforation needs
+        ✔ set up models according to inforation needs @done (10/2/2020, 12:07:04 PM)
         ☐ create controller to pass on information to database
         ☐ setup utils folder with API routes using axios 
     ☐ Frame Calendar - display show - hide prodcuts, register form and confirmations
