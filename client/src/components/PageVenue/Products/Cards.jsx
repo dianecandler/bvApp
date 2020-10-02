@@ -1,93 +1,82 @@
 import React from 'react';
-import { CardDeck, Card, Button } from 'react-bootstrap';
+import { CardDeck, Card, Button, ListGroup } from 'react-bootstrap';
 import Garden from './garden.jpg';
 import MM from './mb.jpg';
 import PR from './pr.jpg';
 
 export default function cards() {
   return (
+  <div>
     <CardDeck>
-      <Card>
+      <Card >
+        <Card.Title><h3>Pesky Rabbit</h3></Card.Title>
         <Card.Img variant="top" src={PR} />
         <Card.Body>
-          <Card.Title>Pesky Rabbit</Card.Title>
-          <Card.Text>
-            Capacity of 120 for cocktails or 75 for seated buffet gatheringss.  Socialize around the antique bar or one of the vintage Jim Beam Whiskey Barrels.  1800 Sq.Ft.{' '}
-            <br />
-            <ul>
-              <li>Minimuum 2 hours + 2 hours cleaning for 4 hour total</li>
-              <li>Maximum 75 buffet, seating provided for 50</li>
-              <li>Maximum 120 cocktail style, venue seating for 50 included, charge for removing</li>
-              <li>Deposit required to hold booking</li>
-              <li>Catering Kitchen available</li>
-              <li>Antique Bar &amp; Street Lamps</li>
-              <li>Bluetooth Sound System</li>
-              <li>Concrete Floors for dancing</li>
-              <li>Free WiFi Throughout</li>
-              <li>Multiple restrooms</li>
-              <li>Use of Refrigerators, Coolers</li>
-              <li>Catering &amp; Chair Rental Available</li>
-              <li>$xxx for 4 hours - WEEKDAY</li>
-              <li>$xxx for 4 hours - WEEKEND</li>
-              <li>$xxx for every additional hour</li>
-              <li>Add $100 for 2 hour photoshoot</li>
-            </ul>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-        <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src={MM} />
-        <Card.Body>
-          <Card.Title>Mockingbird Market</Card.Title>
-          <Card.Text>
-            If you are looking for elegance and charm to host your wedding, bridal shower or a joyous setting for your birthday party or baby shower, you will find Mockingbird Market offers an ideal setting.  1200 sq ft.{' '}
-            <br />
-            <ul>
-              <li>100 Theater, 50 Seated, 75-100 Cocktail</li>
-              <li>Minimuum 2 hours + 2 hours cleaning for 4 hour total</li>
-              <li>Deposit required to hold booking</li>
-              <li>40ft. Hand Carved Display &amp; 2 store front window displays</li>
-              <li>Sound System/BlueTooth &amp; Alexa Compatible</li>
-              <li>Concrete Floors -dancing!</li>
-              <li>Concrete Floors for dancing</li>
-              <li>Free WiFi Throughout</li>
-              <li>$xxx for 4 hours - WEEKEND</li>
-              <li>$xxx for every additional hour</li>
-              <li>Add $100 for 2 hour photoshoot</li>
-            </ul>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-        <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src={Garden} />
-        <Card.Body>
-          <Card.Title>All Inclusive Package</Card.Title>
-          <Card.Text>
-            With the <strong>All Inclusive Package</strong>, you have access to the Pesky Rabbit and Mockingbird Market plus use of the Garden, located in a private area adjoining the halls. This option also includes use of the property for a photoshoot!
-      <br />
-            <ul>
-              <li>Includes us of both <strong>Pesky Rabbit</strong> and <strong>Mockingbird Market</strong>, not at the same time.</li>
-              <li>Ue of the 8ft fenced private <strong>Garden</strong> which includes seating and some tables and chairs.</li>
-              <li>Parking available on the dowtown street of Bartlett.</li>
-              <li>Use of the alley areas for with use of the Garden.</li>
-              <li>Includes use of the property for a 2 hour photoshoot</li>
-              <li>Same capacity guidelines for each hall applies.</li>
-              <li>SATURDAY $xxx for event anytime between 10am-10pm, set-up starts no earlier than 8am, clean-up finished by midnight.</li>
-              <li>SUNDAY $xxx for event anytime between 10am-7pm, set-up starts no learlier than 8am, clean-up finished by 7pm.</li>
-              <li>Allow for at minimum 1 hour set-up and 2 hours for clean-up.</li>
-            </ul>
-          </Card.Text>
+        <Card.Title>Capacity 1800 square feet</Card.Title>
+            <Card.Text>Socialize around the antique bar or one of the vintage Jim Beam Whiskey Barrels.</Card.Text>
+          <ListGroup>
+            <ListGroup.Item>Seats 50, Room Seats 75</ListGroup.Item>
+            <ListGroup.Item>Cocktail style - 120</ListGroup.Item>
+            <ListGroup.Item>Ideal for hosting business, family, holiday parties, wedding receptions, and more.</ListGroup.Item>
+            <ListGroup.Item>14 ft antique bar &amp; service area</ListGroup.Item>
+            <ListGroup.Item>Use of Catering Kitchen</ListGroup.Item>
+            <ListGroup.Item>Use of Refrigerators, Coolers, display and service items</ListGroup.Item>
+            <ListGroup.Item>Concrete floors, chandeliers, Full Bluetooth Sound System </ListGroup.Item>
+          </ListGroup>
         </Card.Body>
         <Card.Footer>
           <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
         </Card.Footer>
       </Card>
+   <Card>
+
+          <Card.Title><h3>Mockingbird Market</h3></Card.Title>
+        <Card.Img variant="top" src={MM} />
+        <Card.Body>
+        <Card.Title>Capacity 1200 square feet</Card.Title>
+        <Card.Text>Historic Charm and elegance with lots of light...expansive brick walls</Card.Text>
+        <ListGroup>
+            <ListGroup.Item>Room seats 50</ListGroup.Item>
+            <ListGroup.Item>Cocktail style - 75</ListGroup.Item>
+            <ListGroup.Item>Ideal for hosting wedding your ceremony, shower or more intimate celebrations.</ListGroup.Item>
+            <ListGroup.Item>40 ft Hard-Carved Cabinet for Displays</ListGroup.Item>
+            <ListGroup.Item>2 storefront Display Windows</ListGroup.Item>
+            <ListGroup.Item>Alexa/Bluetooth Compatible Sound Solution</ListGroup.Item>
+            <ListGroup.Item>Polished Concrete Floors - ideal for dancing</ListGroup.Item>
+          </ListGroup>        
+          </Card.Body>
+        <Card.Footer>
+          <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
+        </Card.Footer>
+      </Card>
+      <Card>
+      <Card.Title><h3>Garden</h3></Card.Title>
+        <Card.Img variant="top" src={Garden} />
+        <Card.Body>
+          <Card.Title>All Inclusive Package Only</Card.Title>
+          <Card.Text> Includes Pesky Rabbit &amp; Mockingbird Market plus the Garden and Photoshoot.</Card.Text>
+          <ListGroup>
+            <ListGroup.Item>Rooms seats 125</ListGroup.Item>
+            <ListGroup.Item>Cocktails style - 200</ListGroup.Item>
+            <ListGroup.Item>Ideal for hosting work events, wedding &amp; reception, birthday or graduation parties!</ListGroup.Item>
+            <ListGroup.Item>Includes 2-hr photoshoot</ListGroup.Item>
+            <ListGroup.Item>Fully enclosed tall privacy fence</ListGroup.Item>
+            <ListGroup.Item>Ceiling Fans for Porch Seating, Shaded for Open Areas</ListGroup.Item>
+            <ListGroup.Item>Adirondack chairs, Patio Furniture included</ListGroup.Item>
+          </ListGroup>
+
+        </Card.Body>
+        <Card.Footer>
+          <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
+        </Card.Footer>
+      </Card>
+      <Card.Text>
+        <h4><strong>Logistics:</strong> 50% deposit holds booking, Add hours if addtl Set-up &amp; Cleaning time is needed.  </h4>
+        <h4><strong>Provided:</strong>  Wifi Throughout, ample parking on downtown brick streets, easy access, original 20ft ship lath ceilings, original brick and plaster walls, ample street lighted parking in front of the buildings, use of alley for All Inclusive bookings</h4>
+        <h4><strong>Price Includes:</strong>  Pre-event 1 planning hour</h4>
+        <h4><strong>Catering/Chairs:</strong>  Discuss catering options, $6/chair rental available</h4>
+      </Card.Text>
     </CardDeck>
+    </div>
   )
 }

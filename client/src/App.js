@@ -15,7 +15,6 @@ import PagePhotoshoot from './components/PagePhotoshoot';
 import PageVenue from './components/PageVenue';
 import PageContact from './components/PageContact';
 
-
 function App() {
   return (
     <div className="App">
