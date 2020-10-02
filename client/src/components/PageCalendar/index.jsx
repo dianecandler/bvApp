@@ -1,16 +1,26 @@
-// Calendar drives available product options then shares booking or Registration followed by Confirmation.
-import React from 'react';
-import CTA from './CTA';
+import React, { Component } from 'react';
+import Calendar from './Calendar';
 import Products from './Products';
-import Registration from './Registration';
+import Register from './Register';
+import Confirmation from './Confirmation';
 
-export default function index() {
-    return (
-        <div>
-            <CTA />
-            <Products />
-            {/* add login to load the Registration and subsequent Confirmation here */}
-            <Registration />
-        </div>
-    )
+export default class index extends Component {
+    state = {
+        date: "",
+        productId: "",
+        showCalendar: true,
+        showProducts: false,
+        showRegister: false,
+        showConfirmation: false
+    }
+    render() {
+        return (
+            <div>
+                { this.state.showCalendar ? <Calendar /> : null}
+                { this.state.showProducts ? <Products /> : null}
+                { this.state.showRegister ? <Register /> : null}
+                { this.state.showConfirmation ? <Confirmation /> : null}                
+            </div>
+        )
+    }
 }

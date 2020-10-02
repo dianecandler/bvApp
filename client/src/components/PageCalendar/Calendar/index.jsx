@@ -4,7 +4,7 @@ export default class index extends Component {
     render() {
         return (
             <div>
-                Products
+                This is a Calendar view
             </div>
         )
     }
