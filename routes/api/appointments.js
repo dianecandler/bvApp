@@ -1,5 +1,5 @@
 const router = require("express").Router();
-//const appointmentsController = require("../../controller/appointmentscontroller");
+const appointmentsController = require("../../controllers/appointmentscontroller");
 
 // Matches with "/api/appointments"
 router.route("/")
