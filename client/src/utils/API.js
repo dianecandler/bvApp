@@ -14,7 +14,7 @@ export default {
             terms: data.terms,
             privacy: data.privacy,
             validateCheck: data.validateCheck
-        }).then(res => res.data)
+        }).then(res => res.data).catch(err => console.log(err))
     },
     savedData: function () {
         return axios.get('/api/appointments').then(res => res.data);

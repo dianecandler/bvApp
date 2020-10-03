@@ -14,7 +14,7 @@ export default class index extends Component {
         showConfirmation: false
     }
 
-    // handle input change function
+    // Calendar functions
     handleInputChange = event => {
         const name = event.target.name;
         const value = event.target.value;
@@ -52,14 +52,25 @@ export default class index extends Component {
         }
     };
 
+    // Products functions
+    backToCalendar = event => {
+        event.preventDefault();
+        window.location.reload(false);
+    }
+
+    buttonPR = event => {
+        console.log(event.target.value);
+        this.setState({ showProducts: false, showRegister: true});
+        this.setState({productId: event.target.value});
+    }
 
 
     render() {
         return (
             <div>
                 { this.state.showCalendar ? <Calendar search={this.state.search} handleInputChange={this.handleInputChange} handleFormSubmit={this.handleFormSubmit}/> : null}
-                { this.state.showProducts ? <Products /> : null}
-                { this.state.showRegister ? <Register /> : null}
+                { this.state.showProducts ? <Products date={this.state.date} backToCalendar={this.backToCalendar} buttonPR={this.buttonPR} productId={this.state.productId} /> : null}
+                { this.state.showRegister ? <Register backToCalendar={this.backToCalendar} date={this.state.date} productId={this.state.productId} /> : null}
                 { this.state.showConfirmation ? <Confirmation /> : null}                
             </div>
         )
