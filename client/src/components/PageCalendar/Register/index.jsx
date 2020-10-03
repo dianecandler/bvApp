@@ -54,6 +54,8 @@ export default class index extends Component {
 
 		console.log(newReservation);
 		API.saveDate(newReservation);
+
+		this.props.buttonREG();
 	}
 
 	render() {
@@ -64,7 +66,7 @@ export default class index extends Component {
 				</Row>
 				<Row>
 					<Col>
-						<h3>Please complete and submit your reseration request.</h3>
+						<h3>Please complete and submit your reservation request.</h3>
 						<br />
 						<br />
 						<Container>
@@ -218,7 +220,7 @@ export default class index extends Component {
 													variant='primary'
 													onClick={this.handleFormSubmitRegister}
 												>
-													SUBMIT
+													READY TO BOOK
 												</Button>
 												<br />
 											</p>

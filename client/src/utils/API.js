@@ -18,5 +18,8 @@ export default {
     },
     savedData: function () {
         return axios.get('/api/appointments').then(res => res.data);
+    },
+    getDate: function(id) {
+        return axios.get('/api/appointments/' + id).then(res => res.data);
     }
 }
