@@ -14,7 +14,9 @@ export default function index() {
                             <hr/>
                             <p style={{marginLeft:"10%", marginRight: "10%"}}>Minutes from Georgetown and Temple, this venue nestled between Cattle Ranches, Cotton Farms. This well preserved Historic District is perfect for those seeking vintage character, modern comforts, and a unique setting!</p>
                             <br/>
-                            <p style={{fontSize: 'extra small'}}><Button variant="primary">Get Started</Button></p>
+                            <p style={{fontSize: 'extra small'}}><Button variant="primary" onClick={() => {
+                                window.location.replace('/inquire')
+                            }}>Get Started</Button></p>
                         </div>
                     </Col>
                 </Row>

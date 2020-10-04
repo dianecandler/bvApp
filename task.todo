@@ -55,17 +55,17 @@ Footer Edits
     ☐ add privacy document
 
 Contact
-    ☐  Add I am not a Robot
+    ☐  Add I am not a Robot - NICE TO HAVE
 
 Contact Us Page
-    ☐ Add I am not a Robot (protect data from hackers?)
-    ☐ Add Privacy doc and check box
-    ☐ Add place to check they review input and it is correct
-    ☐ Add Test
+    ☐ Add I am not a Robot (protect data from hackers?) - NICE TO HAVE
+    ✔ Add Privacy doc and check box @done (10/4/2020, 4:54:11 PM)
+    ✔ Add place to check they review input and it is correct @done (10/4/2020, 4:54:08 PM)
+    ☐ Add Test - NICE TO HAVE
 
 About Us Page
-    ☐ History of the buildings and areas
-    ☐ points of interest
+    ✔ History of the buildings and areas @done (10/4/2020, 4:53:50 PM)
+    ✔ points of interest @done (10/4/2020, 4:53:47 PM)
     ☐ layouts (not ready for Project 3)
     ☐ forms not already available on the footer?
     ☐ Bio on the owner? (for Project 3)
@@ -111,7 +111,7 @@ Photoshoot edits
     ✔ If product selected, pass the value to the main page @done (10/3/2020, 10:51:17 AM)
     ✔ Hide product page and show registration page @done (10/3/2020, 10:51:23 AM)
     ✔ Form @done (10/3/2020, 11:48:51 AM)
-    ☐ Once form submit, get all the values and show the confirmation page
-        ☐ hide registration page
-    ☐ show back to home button
+    ✔ Once form submit, get all the values and show the confirmation page @done (10/4/2020, 4:53:11 PM)
+        ✔ hide registration page @done (10/4/2020, 4:53:14 PM)
+    ✔ show back to home button @done (10/4/2020, 4:53:18 PM)
 

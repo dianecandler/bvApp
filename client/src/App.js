@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/calendar" ><PageCalendar /></Route>
           <Route exact path="/photoshoot" ><PagePhotoshoot /></Route>
           <Route exact path="/about-us" ><PageAbout /></Route>
-          <Route exact path="/contact-us" ><PageContact /></Route>
+          <Route exact path="/inquire" ><PageContact /></Route>
         </Switch>
       </Router>
       <Footer />
