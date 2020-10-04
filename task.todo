@@ -55,17 +55,17 @@ Footer Edits
     ☐ add privacy document
 
 Contact
-    ☐  Add I am not a Robot
+    ☐  Add I am not a Robot - NICE TO HAVE
 
 Contact Us Page
-    ☐ Add I am not a Robot (protect data from hackers?)
-    ☐ Add Privacy doc and check box
-    ☐ Add place to check they review input and it is correct
-    ☐ Add Test
+    ☐ Add I am not a Robot (protect data from hackers?) - NICE TO HAVE
+    ✔ Add Privacy doc and check box @done (10/4/2020, 4:54:11 PM)
+    ✔ Add place to check they review input and it is correct @done (10/4/2020, 4:54:08 PM)
+    ☐ Add Test - NICE TO HAVE
 
 About Us Page
-    ☐ History of the buildings and areas
-    ☐ points of interest
+    ✔ History of the buildings and areas @done (10/4/2020, 4:53:50 PM)
+    ✔ points of interest @done (10/4/2020, 4:53:47 PM)
     ☐ layouts (not ready for Project 3)
     ☐ forms not already available on the footer?
     ☐ Bio on the owner? (for Project 3)
@@ -98,8 +98,20 @@ Photoshoot edits
     Calendar
     ✔ Add React Day Picker (npm) to Client     "react-bootstrap": "^1.3.0", @done (9/28/2020, 11:19:05 AM)
     ✔ Frame calendar - day selection @done (9/28/2020, 11:19:11 AM)
-    ☐ Frame calendar - show disabled dates on calendar
-    ☐ Frame products - show available products for day selected
-    ☐ Define form for input based on Calendar
-    ☐ Define db tables to match data requested
+    ✔ Page-Calendar -- connect calendar, products, registartion and confirmation components @done (10/2/2020, 12:52:51 PM)
+        ✔ set up routes for get and post @done (10/2/2020, 12:01:46 PM)
+        ✔ set up models according to inforation needs @done (10/2/2020, 12:07:04 PM)
+        ✔ create controller to pass on information to database @done (10/2/2020, 12:10:19 PM)
+        ✔ setup utils folder with API routes using axios @done (10/2/2020, 12:38:15 PM)
+    ✔ Frame Calendar - display show - hide prodcuts, register form and confirmations @done (10/2/2020, 1:17:48 PM)
+    ✔ Calendar Logic -- get date input and pass the value to the global state function @done (10/3/2020, 10:27:11 AM)
+    ✔ Once date is valid and not the past one, hide calendar and show products @done (10/3/2020, 10:28:05 AM)
+    ✔ Products Logic -- create a specific Id that let decide if the product is selected or not @done (10/3/2020, 11:48:47 AM)
+        ✔ If product is already in database then hide booking button for that products @done (10/3/2020, 11:49:06 AM)
+    ✔ If product selected, pass the value to the main page @done (10/3/2020, 10:51:17 AM)
+    ✔ Hide product page and show registration page @done (10/3/2020, 10:51:23 AM)
+    ✔ Form @done (10/3/2020, 11:48:51 AM)
+    ✔ Once form submit, get all the values and show the confirmation page @done (10/4/2020, 4:53:11 PM)
+        ✔ hide registration page @done (10/4/2020, 4:53:14 PM)
+    ✔ show back to home button @done (10/4/2020, 4:53:18 PM)
 
