@@ -16,7 +16,7 @@
     -[x] MongoDB
     -[x] Mongoose
 
-- [] Must have GET and POST routes for retrieving and adding new data
+- [x] Must have GET and POST routes for retrieving and adding new data
 
 - [] Must be deployed using Heroku  (with Data)
 
@@ -31,9 +31,9 @@
 - [x] Must have folder structure that meets MVC Paradigm
     * Components are in individual files with CSS
 
-- [ ] Must meet good quality coding standards
+- [x ] Must meet good quality coding standards
 
-- [ ] Must not expose sensitive API key information on the server
+- [x ] Must not expose sensitive API key information on the server
 
 ## Wireframes
 ![First draft Wireframes folder](./fileReadme/Wireframe/getStarted1.pdf)
