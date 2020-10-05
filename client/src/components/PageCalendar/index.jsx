@@ -68,7 +68,13 @@ export default class index extends Component {
 
 	render() {
 		return (
-			<div>
+			<section
+				style={{
+					paddingTop: "6rem",
+					paddingBottom: "6rem",
+					backgroundColor: "#e9ecef",
+				}}
+			>
 				{this.state.showCalendar ? (
 					<Calendar
 						search={this.state.search}
@@ -95,7 +101,7 @@ export default class index extends Component {
 				{this.state.showConfirmation ? (
 					<Confirmation productId={this.state.productId} />
 				) : null}
-			</div>
+			</section>
 		);
 	}
 }

@@ -19,7 +19,7 @@ export default function index() {
                     <br />
                     <Container>
                         <Row>
-                            <Col>
+                            <Col sm={12} md={6}>
                                 <Form>
                                     <Row>
                                         <Col xs={6}>
@@ -56,12 +56,13 @@ export default function index() {
                                     </Row>
                                 </Form>
                             </Col>
-                            <Col>
+                            <Col sm={12} md={6}>
                                 <img
                                     className="d-block w-35"
                                     src={Image}
                                     alt="Pesky Rabbit"
                                 />
+                                <br />
                                 <p>Send us an email or give us a call to see how we can help you with your next event, party, meeting, or wedding!</p>
                                 <br />
                                 <h4><span>{map}</span> 107 East Clark Street, Bartlett, TX 76511</h4>
