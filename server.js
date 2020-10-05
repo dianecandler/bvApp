@@ -17,7 +17,7 @@ app.use(express.json());
 const mongoose = require('mongoose');
 // connect Mongoose to mongodb with db named venueapp
 //mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true,  useUnifiedTopology: true });
-mongoose.connect("mongodb://localhost/bvAppDev", { useNewUrlParser: true,  useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true,  useUnifiedTopology: true });
 if(process.env.NODE_ENV !== 'production'){app.use(express.static("client/build"))}
 
 mongoose.connection.on('connected', function(){console.log("Mongo DB connected")});
