@@ -6,7 +6,7 @@ import { PSWaiver } from "../PSWaiver.pdf"
 
 export default function index() {
     return (
-        <Container>
+        <Container style={{marginTop: '4rem', marginBottom: '4rem' }}>
             <Row>
                 <Col className="text-center">
                     <h3>Photoshoot Gallery</h3>
@@ -28,7 +28,7 @@ export default function index() {
                             <h3>$100/two hours</h3>
                         </Col>
                         <Col xs={9}>
-                            <p>Enjoy the recently restored murals around Bartlett including the 1920 vintage mural on the alley wall of Mockingbird Market.</p>
+                            <p style={{fontSize: 'small'}}>Enjoy all of the recently restored murals around Bartlett including the 1920 vintage mural on the alley wall of Mockingbird Market.</p>
                         </Col>
                     </Row>
                     <Row style={{paddingBottom: '2rem'}}>

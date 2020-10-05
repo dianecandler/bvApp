@@ -9,14 +9,23 @@ export default function index() {
   return (
     <div className="section $light-gray bg-light">
       <Container style={{marginTop:'4rem', padding:'1rem'}}>
+      <br/>
         <Row>
-          <Col xs={6} md={3}>
+          <Col xs={3} md={3}>
+            Bartlett Venue
+          </Col>
+          <Col xs={3} md={3}>
           <a href={FAQ} target="_blank" rel="noopener noreferrer" >FAQs</a>
-          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank" rel="noopener noreferrer" >Terms and Conditions</a>
           </Col>
-          <Col xs={6} md={9}>
-          <p>2020 Copyright &copy;  designed by Diane Candler<Image src={Diane} thumbnail /></p>
+          <Col xs={3} md={3}>
+          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank" rel="noopener noreferrer" >Terms &amp; Conditions</a>
           </Col>
+          <Col xs={3} md={3}>
+          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank" rel="noopener noreferrer" >Privacy Policy</a>
+          </Col>
+        </Row>
+        <Row>
+        <p>2020 Copyright &copy;  designed by Diane Candler<Image src={Diane} thumbnail /></p>
         </Row>
       </Container>
     </div>

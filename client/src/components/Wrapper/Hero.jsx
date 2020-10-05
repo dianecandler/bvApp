@@ -16,7 +16,7 @@ export default function Hero() {
         />
         <Carousel.Caption >
           <h3>Bartlett Venue</h3>
-          <p>Host your next event in this Historic District outside Austin, TX.</p>
+          {/* <p>Host your next event in this Historic District outside Austin, TX.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

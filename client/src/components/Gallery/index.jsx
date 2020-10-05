@@ -9,6 +9,7 @@ import { photos } from "./photos";
 export default function index() {
 	return (
 		<Container>
+			<br /><br /><br />
 			<Row>
 				<Col className='text-center'>
 					<h3>Gallery</h3>
@@ -41,6 +42,7 @@ export default function index() {
 					<br />
 				</p>
 			</Row>
+			<br /><br /><br />
 		</Container>
 	);
 }

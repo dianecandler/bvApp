@@ -22,7 +22,7 @@
 
 - [] Must utilize two "new to me" libraries, packages, or technologies 
     -[] 
-    -[]
+    -[] formspree used for email
 
 - [] Must allow for or involve the authentication of users in some way.
 

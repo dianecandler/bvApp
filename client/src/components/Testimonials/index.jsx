@@ -6,7 +6,7 @@ import {Carousel, Container, Row, Col, Card, } from 'react-bootstrap';
 
 export default function index() {
     return (
-        <Carousel className="mt-5 mb-5" style={{backgroundColor: '#e9ecef', padding: '4rem 2rem', marginTop: '2rem', marginBottom: '2rem'}}>
+        <Carousel className="mt-5 mb-5" style={{backgroundColor: '#e9ecef', padding: '4rem 2rem', marginTop: '6rem', marginBottom: '4rem'}}>
             <Carousel.Item>
                 <Container className="border border-dark p-3">
                     <Row>

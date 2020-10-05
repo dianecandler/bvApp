@@ -1,12 +1,12 @@
 import React from 'react';
-import { CardDeck, Card, Button, ListGroup} from 'react-bootstrap';
+import {Container, CardDeck, Card, Button, ListGroup} from 'react-bootstrap';
 import Garden from './garden.jpg';
 import MM from './mb.jpg';
 import PR from './pr.jpg';
 
 export default function cards() {
   return (
-  <div>
+  <Container style={{marginBottom: "2rem" }}>
     <CardDeck>
       <Card >
         <Card.Title><h3>Pesky Rabbit</h3></Card.Title>
@@ -24,9 +24,9 @@ export default function cards() {
             <ListGroup.Item>Concrete floors, chandeliers, Full Bluetooth Sound System </ListGroup.Item>
           </ListGroup>
         </Card.Body>
-        <Card.Footer>
+        {/* <Card.Footer>
           <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
-        </Card.Footer>
+        </Card.Footer> */}
       </Card>
    <Card>
 
@@ -45,9 +45,9 @@ export default function cards() {
             <ListGroup.Item>Polished Concrete Floors - ideal for dancing</ListGroup.Item>
           </ListGroup>        
           </Card.Body>
-        <Card.Footer>
+        {/* <Card.Footer>
           <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
-        </Card.Footer>
+        </Card.Footer> */}
       </Card>
       <Card>
       <Card.Title><h3>Garden</h3></Card.Title>
@@ -66,22 +66,24 @@ export default function cards() {
           </ListGroup>
 
         </Card.Body>
-        <Card.Footer>
+        {/* <Card.Footer>
           <p style={{ textAlign: 'center' }}><Button variant="primary">Check Availability</Button></p>
-        </Card.Footer>
+        </Card.Footer> */}
       </Card>
       <Card.Text>
       <br /><br /><br />
-        <h4><strong>Logistics:</strong> 50% deposit holds booking, Add hours if addtl Set-up &amp; Cleaning time is needed.  </h4>
+      <p style={{ fontSize: 'extra small', textAlign: 'center' }}><Button variant="primary">Learn More</Button></p>
+      <br /><br /><br />
+        <h4><strong>Logistics:</strong> 50% deposit holds booking. Add hours for addtl time for Set-up &amp; Cleaning.  </h4>
         <br />
-        <h4><strong>Provided:</strong>  Wifi Throughout, ample parking on downtown brick streets, easy access, original 20ft ship lath ceilings, original brick and plaster walls, ample street lighted parking in front of the buildings, use of alley for All Inclusive bookings</h4>
+        <h4><strong>Provided:</strong>  Wifi throughout, ample parking on lighted downtown brick streets, easy access for set-up/clean-up, original 20ft ship-lath ceilings, original brick and plaster walls, use of alley for All Inclusive bookings</h4>
         <br />
-        <h4><strong>Price Includes:</strong>  Pre-event 1 planning hour</h4>
+        <h4><strong>Price Includes:</strong>  Pre-event 1 planning hour, could be used for wedding rehearsal</h4>
         <br />
-        <h4><strong>Catering/Chairs:</strong>  Discuss catering options, $6/chair rental available</h4>
+        <h4><strong>Catering/Chairs:</strong>  Discuss catering options, chair rental available</h4>
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </Card.Text>
     </CardDeck>
-    </div>
+    </Container>
   )
 }

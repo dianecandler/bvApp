@@ -127,14 +127,14 @@ export default class index extends Component {
                                     alt="Pesky Rabbit"
                                 /> */}
 										<p>
-											Once you Submit, look for an email confirming your
-											reservation request. Try your spam or junk folder if you
+											Once you Submit, email confirming your
+											reservation request will be sent. Try your spam or junk folder if you
 											do not see your confirmation email from
 											bartlettvenue@gmail.com
 										</p>
 										<p>
-											To hold your reservation, we must receive your event
-											deposit. We will contact you for your deposit.
+											Your 50% deposit is required to hold your reservation. 
+											We will contact you for your deposit.
 										</p>
 										<hr />
 										<h2>Contact Us</h2>

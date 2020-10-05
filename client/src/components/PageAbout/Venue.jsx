@@ -44,7 +44,7 @@ export default function Venue() {
             </CardGroup>
             <p style={{ paddingTop: '1rem', paddingLeft: '2rem', paddingRight: '1rem' }}><strong>Mockingbird Market</strong> still has the same display windows used when the building was first opened in 1903.  Ship lath covers the original ceiling and back walls.  Side walls are red brick with some plaster exposing original bricks underneath.  Ceilings are painted a soft white while the back wall is painted "warm biscuits" and trimmed in white.  The 40 foot white, hand carved display case along one of the two long walls has been in the building for many years.  Shelves are removable and with glass doors, can be used for displaying photos and memoriabilia to enhance and personalize your event.</p>
             <br />
-            <Container style={{ width: '100%', background: 'white', PaddingLeft: '1rem', paddingTop: '1rem', PaddingBottom: '1rem' }}>
+            <Container style={{ width: '100%', background: 'white', PaddingLeft: '1rem', paddingTop: '1rem', PaddingBottom: '1rem', marginTop: '2rem' }}>
                 <h2 >About the Area</h2>
             </Container>
 

@@ -11,7 +11,7 @@ import Prom from './Prom.jpg';
 export default function cards() {
   return (
     <div><h2 style={{paddingLeft: '2rem'}}>Explore how easy it is to shop local in Bartlett</h2>
-    <CardDeck>
+    <CardDeck  style={{fontSize: '10px'}}>
       <Card>
         <Card.Img variant="top" src={DJ} alt="DJ" />
         <Card.Body>
