@@ -7,7 +7,6 @@ export default function index() {
 			style={{
 				paddingTop: "6rem",
 				paddingBottom: "6rem",
-				backgroundColor: "#e9ecef",
 			}}
 		>
             <Container>

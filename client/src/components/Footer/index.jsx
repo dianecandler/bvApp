@@ -1,24 +1,43 @@
-
-import React from 'react';
-import { Container, Row, Col, Image} from 'react-bootstrap';
-import Terms from './terms.pdf';
-import FAQ from './faq.pdf';
-import Diane from './diane.jpg';
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Terms from "./terms.pdf";
+import FAQ from "./faq.pdf";
+import Diane from "./diane.jpg";
+import { Navbar, Nav } from "react-bootstrap";
 
 export default function index() {
-  return (
-    <div className="section $light-gray bg-light">
-      <Container style={{marginTop:'4rem', padding:'1rem'}}>
-        <Row>
-          <Col xs={6} md={3}>
-          <a href={FAQ} target="_blank" rel="noopener noreferrer" >FAQs</a>
-          <a style={{marginLeft:'2rem'}} href={Terms} target="_blank" rel="noopener noreferrer" >Terms and Conditions</a>
-          </Col>
-          <Col xs={6} md={9}>
-          <p>2020 Copyright &copy;  designed by Diane Candler<Image src={Diane} thumbnail /></p>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-  )
+	return (
+		<Navbar collapseOnSelect expand='lg' bg='light' variant='dark' className="fixed-bottom">
+			<Navbar.Brand href='/' style={{color:'#f87060ff'}}>Bartlett Venue</Navbar.Brand>
+			<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+			<Navbar.Collapse id='responsive-navbar-nav'>
+				<Nav className='mr-auto'>
+					<Nav.Link>
+						Developed by Diane Candler 2020 &copy; All Rights Reserved
+					</Nav.Link>
+				</Nav>
+				<Nav>
+					<Nav.Link href={FAQ} target='_blank' rel='noopener noreferrer'>
+						FAQ
+					</Nav.Link>
+					<Nav.Link
+						eventKey={2}
+						href={Terms}
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						Terms &amp; Conditions
+					</Nav.Link>
+					<Nav.Link
+						eventKey={3}
+						href={Terms}
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						Privacy Policy
+					</Nav.Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
+	);
 }

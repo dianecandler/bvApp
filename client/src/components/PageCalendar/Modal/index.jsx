@@ -12,13 +12,13 @@ export default function index(props) {
 			>
 				<Modal.Header closeButton>
 					<Modal.Title id='contained-modal-title-vcenter'>
-						Thank you for your reservation!
+						Thank you for your reservation request!
 					</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
 					<h4>Bartlett Venue will contact you soon.</h4>
 					<p>
-						Your confirmation was sent via email. Check your spam or junk folder
+						Email confirmation was sent. May need to check your spam or junk folder
 						if you don't see it.
 					</p>
 				</Modal.Body>

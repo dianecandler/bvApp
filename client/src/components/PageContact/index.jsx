@@ -4,8 +4,14 @@ import Contact from './Contact';
 
 export default function index() {
     return (
-        <div>
+        <section
+			style={{
+				paddingTop: "6rem",
+				paddingBottom: "6rem",
+				backgroundColor: "#e9ecef",
+			}}
+		>
             <Contact />
-        </div>
+        </section>
     )
 }

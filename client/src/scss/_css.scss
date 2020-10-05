@@ -15,8 +15,7 @@ body {
     }
 
     a {
-        color: $bittersweet;
-
+    
         &:hover {
             color: $oxford-blue;
         }
@@ -42,4 +41,18 @@ body {
     .inputgrouplinkTerms {
         padding-left: .5rem;
     }
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/tableLandscape.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
