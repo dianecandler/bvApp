@@ -41,7 +41,7 @@ export default function index() {
 									</p>
 									<hr />
 									<h4>
-										<span>{map}</span> 107 East Clark Street, Bartlett, TX 76511
+										<span>{map}</span> 117 East Clark Street, Bartlett, TX 76511
 									</h4>
 									<br />
 									<h4>

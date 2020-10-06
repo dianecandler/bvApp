@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Nav } from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
-import { PSWaiver } from "../PSWaiver.pdf"
 
 export default function index() {
     return (
@@ -36,8 +35,7 @@ export default function index() {
                     </Row>
                          <br /><br />
                     <Row style={{ justifyContent: 'center', fontSize: '10px' }}>
-                        <p><br /><Button variant="primary">Book Now</Button><br /></p>
-                        <p style={{paddingLeft: '2rem'}}><br /><Button variant="primary"href={PSWaiver} target="_blank" >Photoshoot Waiver</Button><br /> </p>
+                        <p><br /><Button variant="primary" onClick={()=>window.location.replace('/inquire')}>Book Now</Button><br /></p>
                     </Row>
             </Row>
         </Container >

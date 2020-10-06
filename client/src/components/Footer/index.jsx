@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Terms from "./terms.pdf";
 import FAQ from "./faq.pdf";
+import PSWaiver from "./PSWaiver.pdf";
 import Diane from "./diane.jpg";
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -19,6 +20,9 @@ export default function index() {
 				<Nav>
 					<Nav.Link href={FAQ} target='_blank' rel='noopener noreferrer'>
 						FAQ
+					</Nav.Link>
+					<Nav.Link href={PSWaiver} target='_blank' rel='noopener noreferrer'>
+						Photoshoot Waiver
 					</Nav.Link>
 					<Nav.Link
 						eventKey={2}

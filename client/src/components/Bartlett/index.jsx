@@ -17,7 +17,7 @@ export default function index() {
 		>
 			<Container>
 				<Row>
-					<Col sm={12} md={6} lg={6} style={{fontSize:"small"}}>
+					<Col sm={12} md={6} lg={6} style={{ fontSize: "small" }}>
 						<h4>About Bartlett, TX</h4>
 						<p>
 							The Bartlett Historic District, listed on the National Register of
@@ -35,12 +35,12 @@ export default function index() {
 						</p>
 						<h4>Movies Shot Here</h4>
 						<p>
-							“The Lost Husband” w/Josh Duhamel &amp; Leslie
-							Bibb, “The Stars Fell on Henrietta” with Robert Duvall &amp; Brian
-							Dennehy, remake of “True Grit” w/Jeff Bridges &amp; Matt Damon,
-							“Walking Dead”, "Revolution", "The Whole Wide World" w/Renee
-							Zellweger, "The Newton Boys" w/Matthew McDonaughey, "Texas
-							Justice" w/Peter Strauss &amp; Heather Locklear, plus others.
+							“The Lost Husband” w/Josh Duhamel &amp; Leslie Bibb, “The Stars
+							Fell on Henrietta” with Robert Duvall &amp; Brian Dennehy, remake
+							of “True Grit” w/Jeff Bridges &amp; Matt Damon, “Walking Dead”,
+							"Revolution", "The Whole Wide World" w/Renee Zellweger, "The
+							Newton Boys" w/Matthew McDonaughey, "Texas Justice" w/Peter
+							Strauss &amp; Heather Locklear, plus others.
 						</p>
 
 						<p>
