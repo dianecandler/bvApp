@@ -1,13 +1,14 @@
-# bvApp
 # Project 3 Venue Application using MERN #
+
+# Code name:  bvApp
 
 # links
 
-* Heroku
+* Heroku https://bvapp-test.herokuapp.com/
 
 * GitHub  https://github.com/dianecandler/bvApp
 
-# Minimum Requirements
+# Project 3 Requirements
 - [x] Must use React.JS in some way
 
 - [x] Must use Node and Express Web Server
@@ -18,11 +19,16 @@
 
 - [x] Must have GET and POST routes for retrieving and adding new data
 
-- [] Must be deployed using Heroku  (with Data)
+- [x] Must be deployed using Heroku  (with Data):  https://bvapp-test.herokuapp.com/
 
-- [] Must utilize two "new to me" libraries, packages, or technologies 
-    -[] 
-    -[] formspree used for email
+- [x] Must utilize two "new to me" libraries, packages, or technologies 
+    - [x] React SCSS Bootstrap 
+    - [x] Voice.Google.com and Vonage
+    - [x] formspree used for email
+    - [x] Atlas MongoDB 
+    - [x] Researched Google Calendar and https://www.npmjs.com/package/react-big-calendar
+    - [x] Adobe XD for Wireframes
+    - [x] GoFullPage for page documentation
 
 - [] Must allow for or involve the authentication of users in some way.
 
@@ -31,14 +37,17 @@
 - [x] Must have folder structure that meets MVC Paradigm
     * Components are in individual files with CSS
 
-- [x ] Must meet good quality coding standards
+- [x] Must meet good quality coding standards
 
-- [x ] Must not expose sensitive API key information on the server
+- [x] Must not expose sensitive API key information on the server
 
 ## Wireframes
-![First draft Wireframes folder](./fileReadme/Wireframe/getStarted1.pdf)
+Follow the Pesky Rabbit in this Adobe XD mark-up model used to develop the application.
 
 ![Adobe XD Wireframes for full site](https://xd.adobe.com/view/8ee2a4d6-8270-43d1-a5a3-aae92f6b7929-dbb1/?fullscreen)
+
+PDF pages are available
+![First draft Wireframes folder](./fileReadme/Wireframe/getStarted1.pdf)
 
 ## Market and Client Requirements Document
 
@@ -46,21 +55,33 @@
 
 
 ## Milestones (https://github.com/dianecandler/bvApp/milestones)
-* Home Page Components - Due 9/24/2020
+* Home Page Components - Due 9/24/2020 - completed
     * Nav. HeroImage, CTABanner, Product, Testimonial, Gallery, Map, Contact, Footer
+    * modifications and enhancements allowed through to 10/5/2020 - completed
 
-* Calendar Copmponent - Due 9/30/2020
+* Calendar Copmponent - Due 9/30/2020 - completed 10/3/2020 - completed
     * Determine package, plan to popular calendar with data not push data from calendar
 
-*Research & Build Framework for Backend - Due by 9/30-2020
+* Research & Build Framework for Backend - Due by 9/30-2020 - completed 
 
-* Gallery Page, CTA, Copy for Photoshoot Updates - Due by 9/27/2020
+* Gallery Page, CTA, Copy for Photoshoot Updates - Due by 9/27/2020 - completed
     * Size and select images (store in Public)
     * Work with forms, buttons, columns, rows and Containers to ensure padding, margin, spacing
     * Review and edit copy to work in space allowed
 
-* Test at minimum Front End
+* Test at minimum Front End - Moved to Nice to Have
     * Set up files and ran first Test 9/26/2020
+
+* Finalize Photoshoot plans, design, forms needed - Completed 10/3/2020
+    * Like to book like the venue halls but not realistic 
+        * booking halls is higher priority
+        * booking 2-hour windows around venue bookings is best
+    * use of owner's personal space requires some planning for these bookings
+    * determined just capturing the interest and booking personally is best
+
+* Copy and images
+    * Meets requirements by 10/5/2020 to deploy on Heroku - completed
+    * Final due by 10/6/2020 by 10am CST
 
 * Project Documentation - Due 10/5/2020
     [x] Customer/Market requirements document
@@ -70,17 +91,41 @@
     [x] Images for Gallery
     [x] Images for photoshoot
     [x] Images for other areas
-    [] Simple Test Discussion
-    [] Compile list of technologies, packages, tools used for this project
+    [x] Compile list of technologies, packages, tools used for this project
 
 ##  Technologies and Tools Used
+* MERN
+    * MongoDB
+    * Express Servers
+    * React
+    * NodeJS
+* Mongoose
+* HTML and SCSS Bootstrap
+* Git Hub, Heroku, Cloud
 
+## Version 2.0
+
+* Add SMS and enhance email confirmation
+* Add Registration content to include checkbox/pull down options
+    * Number of guests, Alcohol Served, Hours of event, Hours w/clean-up and Set-up
+    * Event type - cocktail, theater seating for class or ceremony, buffet seating - need #
+    * Questions about chair rental, catering, photoshoot
+* Add FAQs and commonly asked questions to the venue page
+* Provide on-screen viewing of privacy policy and other documents currently via PDF or new tab viewing
+* Better map solution
+* Downloadable brochure
+* Video brochure
+* Separate page for each Hall
+* Include the I am no a Robot (Recaptcha)
+* Collect deposit to hold booking?
+* Add administrtation page with login
 
 ## Presentations
 
-![Initial full application](/fileReadme/P3pres1)
+![Initial presentation](/fileReadme/P3pres1)
 
-## Challenges
+
+## Challenges and Lessons Learned
 * Taking on this final project with all the requirements solo is the biggest challenge of the project.
     * Reason for going solo?  
         1. To ensure I have the confidence to face any challenges and opportunities provided as I leverage my new skills.
@@ -93,7 +138,7 @@
         1. Having kept up with the class, completed all homework assignments provided me to practice needed to build memory muscle.
         2. Watching videos to dive deeper or broaden my understanding has proven very helpful.
             -  favorites included Scrimba, Audacity, The Net Ninja
-        3.  Could use another week of tutorials and practice to become more comfortable with testing.  Hoping to include more testing but concerned with delivering critical MVP by myself.  2-3 weeks is not a lot of time to create a full business website.
+        3.  Could use another week of tutorials and practice to become more comfortable with testing.  Hoping to include more testing  but concerned with delivering critical MVP by myself.  2-3 weeks is not a lot of time to create a full business website.
         4.  Limited University of Texas resources.  50 minutes of 1x1 tutoring, 3 hours/week of office hours, 5 classes to talk through problems with my instructor and TA isn't a whole lot.  Planning questions and having enough understanding to use this time most effectively has been challenging.
         5.  Recognizing how much time is required to deliver results.  Luckily time flies when you are having fun! :smile:
     * Logic flow changes
@@ -108,5 +153,19 @@
         * Saturday/Sunday, Weekday prices are different
         * Added charge for photoshoot and extra hours with single hall rental
 
+# Calendar Process
 
-##
+
+
+##  About the Developer
+
+Diane Candler, Student at The University of Texas at Austin
+Full-Stack Web Development
+Graduation October 2020
+LinkedIn:  https://www.linkedin.com/in/diane-candler-centraltexas/
+Email:  dianedcandler@gmail.com
+Portfolio:  https://dianecandler.herokuapp.com/
+
+
+# Thank you
+Your time is valuable.  Thank you for taking time to review this program.  Feedback is valued.  Feel free to use the Contact tab and send me an email with your thoughts.

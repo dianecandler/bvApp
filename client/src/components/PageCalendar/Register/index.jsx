@@ -247,7 +247,7 @@ export default class index extends Component {
 									<br />
 									{/* <div className="float-left"><span className="circle-icon">{map}</span></div> */}
 									<span className='text-small'>Location:</span>
-									<h5> 107 East Clark Street, Bartlett, TX 76500</h5>
+									<h5> 117 East Clark Street, Bartlett, TX 76500</h5>
 									<br />
 									{/* <div className="float-left"><span className="circle-icon">{building}</span></div> */}
 									<span className='text-small'>Mailing Address:</span>
