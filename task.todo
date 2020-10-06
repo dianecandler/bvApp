@@ -22,8 +22,8 @@
     ✔ Add links @done (9/18/2020, 12:09:17 PM)
 Home Page Edits
 
-    ☐ change main building photo in hero carousel if time
-    ☐ fix the red link color in the map section
+    ✔ change main building photo in hero carousel if time @done (10/5/2020, 7:28:42 PM)
+    ✔ fix the red link color in the map section @done (10/5/2020, 7:28:49 PM)
     ✔ fix copy on CTA...this venue nestled between...corn farms! (late night edits!) @done (9/27/2020, 11:56:19 PM)
     ✔ Cards for venue @done (9/27/2020, 11:52:23 PM)
         ✔ The Garden - delete quickly and rework bullets @done (9/27/2020, 11:52:07 PM)
@@ -47,12 +47,12 @@ Photoshoot edits
     ✔ remove "the" before MM in 2nd paragraph - @done (9/27/2020, 11:25:30 PM)
     ✔ changed final paragraph "details" to detailed @done (9/27/2020, 11:25:50 PM)
 
-☐ Change building to post office on footer/contact
+✔ Change building to post office on footer/contact @done (10/5/2020, 7:28:59 PM)
 
 Footer Edits
     ☐ Add logo/home return to Footer
-    ☐ add photo waiver
-    ☐ add privacy document
+    ✔ add photo waiver @done (10/5/2020, 7:29:05 PM)
+    ✔ add privacy document @done (10/5/2020, 7:29:06 PM)
 
 Contact
     ☐  Add I am not a Robot - NICE TO HAVE
@@ -66,33 +66,39 @@ Contact Us Page
 About Us Page
     ✔ History of the buildings and areas @done (10/4/2020, 4:53:50 PM)
     ✔ points of interest @done (10/4/2020, 4:53:47 PM)
-    ☐ layouts (not ready for Project 3)
-    ☐ forms not already available on the footer?
-    ☐ Bio on the owner? (for Project 3)
+    ☐ layouts (not ready for Project 3) - Nice to Have
+    ☐ forms not already available on the footer? - Nice to Have
+    ☐ Bio on the owner? (for Project 3) - Nice to Have
     
     
-    ☐ fix copy on CTA...this venue nestled between...corn farms! (late night edits!)
+    ✔ fix copy on CTA...this venue nestled between...corn farms! (late night edits!) @done (10/5/2020, 7:30:02 PM)
     ☐ Cards for venue 
         ✔ The Garden - delete quickly and rework bullets @done (9/28/2020, 9:15:01 AM)
         ✔ MM - fix after "charm", fix "cheering" - text seems to have gotten jumbled @done (9/28/2020, 9:15:04 AM)
         ✔ PR look at gatheringss...text needs edits @done (9/28/2020, 9:15:05 AM)
-    ☐ change testimonial working
+        ☐ Change format and trim copy - Nice to Have
+    ✔ change testimonial working @done (10/5/2020, 7:31:04 PM)
         ✔ baby shower to booked  and thanks to "all the" natural "light" @done (9/28/2020, 9:15:13 AM)
         ✔ 4th of July - seems okay @done (9/28/2020, 9:15:14 AM)
         ✔ MM change to our kids @done (9/28/2020, 9:15:16 AM)
-    ☐ Gallery
+    ✔ Gallery @done (10/5/2020, 7:31:09 PM)
         ✔ under Gallery - missing - before Retirement and split so groupings work @done (9/28/2020, 9:15:24 AM)
     ☐ Map 
         ✔ fix Walburg @done (9/28/2020, 9:15:27 AM)
         ✔ need to mention link? @done (9/28/2020, 9:15:29 AM)
+        ☐ Improve map...add Google Map or link for on-site directions maybe - Nice To Have
     ☐ About Us 
         ✔ 2nd paragraph - somewhere should be some were @done (9/28/2020, 9:15:34 AM)
+        ✔ Movie list highlights @done (10/5/2020, 7:34:03 PM)
+        ☐ Link moview to online? Show cover? - Nice to Have
+        ☐ Create individual story on each building - True Grit, City Cafe, images of deeds - display in optional drilldown - NICE to Have
 
 Photoshoot edits
     ✔ buildings spelled wrong @done (9/28/2020, 9:15:37 AM)
-    ☐ change historic area to historic town?
+    ✔ change historic area to historic town? @done (10/5/2020, 7:34:15 PM)
     ✔ remove "the" before MM in 2nd paragraph - @done (9/28/2020, 9:15:47 AM)
     ✔ changed final paragraph "details" to detailed @done (9/28/2020, 9:15:48 AM)
+    ☐ Add Google map page with recommended spots - require login for customers - NICE to Have
 
 
     Calendar
@@ -114,4 +120,5 @@ Photoshoot edits
     ✔ Once form submit, get all the values and show the confirmation page @done (10/4/2020, 4:53:11 PM)
         ✔ hide registration page @done (10/4/2020, 4:53:14 PM)
     ✔ show back to home button @done (10/4/2020, 4:53:18 PM)
+    ☐ Collect more data in db and display in email - Nice to have for this version
 

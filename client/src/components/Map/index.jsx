@@ -47,10 +47,10 @@ export default function index() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										Dale's Essenhaus
+										Dale's Essenhaus 
 									</a>
 								</strong>
-								in Walburg
+								 in Walburg
 							</li>
 							<li>
 								<strong>
@@ -62,7 +62,7 @@ export default function index() {
 										Walburg German Restaurant &amp; Biergarten
 									</a>
 								</strong>
-								in Walburg
+								 in Walburg
 							</li>
 							<li>
 								<strong>
@@ -74,7 +74,7 @@ export default function index() {
 										Central Texas Olive Ranch
 									</a>
 								</strong>
-								outside Walburg
+								 outside Walburg
 							</li>
 							<li>
 								<strong>
@@ -86,7 +86,7 @@ export default function index() {
 										Cotton Country Club
 									</a>
 								</strong>
-								Dancehall in Granger on Hwy 95
+								 Dancehall in Granger on Hwy 95
 							</li>
 							<li>
 								<strong>
@@ -98,7 +98,7 @@ export default function index() {
 										Dancing Bee
 									</a>
 								</strong>
-								- the winery at
+								 - the winery at
 								<strong>
 									<a
 										href='https://www.walkerhoneyfarm.com/'
@@ -108,7 +108,7 @@ export default function index() {
 										Walker Honey Farm
 									</a>
 								</strong>
-								in Rogers on Hwy 190
+								 in Rogers on Hwy 190
 							</li>
 							<li>
 								<strong>
@@ -120,7 +120,7 @@ export default function index() {
 										Sweet Eats Fruit Farm
 									</a>
 								</strong>
-								on Hwy 29 in Georgetown
+								  on Hwy 29 in Georgetown
 							</li>
 							<li>
 								<strong>
@@ -154,7 +154,7 @@ export default function index() {
 										Bartlett Area Chamber of Commerce
 									</a>
 								</strong>
-								offers a Calendar of Events
+								 offers a Calendar of Events
 							</li>
 							<li>
 								<strong>
@@ -166,7 +166,7 @@ export default function index() {
 										Fletchers Books &amp; Antiques
 									</a>
 								</strong>
-								is worth a stop if you are in Salado.
+								 is worth a stop if you are in Salado.
 							</li>
 							<li>
 								Great Kayaking &amp; fishing at
@@ -176,10 +176,10 @@ export default function index() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										Wills Creek Park
+										 Wills Creek Park
 									</a>
 								</strong>
-								on Lake Granger
+								 on Lake Granger
 							</li>
 							<li>
 								If golf is more your style, try
@@ -189,7 +189,7 @@ export default function index() {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										Berry Springs Park and Preserve
+									 	Berry Springs Park and Preserve
 									</a>
 								</strong>
 							</li>
