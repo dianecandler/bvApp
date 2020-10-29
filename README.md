@@ -1,3 +1,5 @@
+Bartlett Venue (bvApp) is a business website that uniquely allows guests to view availabllity and directly book different rental packages online. Today users are unfamiliar with Bartlett and this is a new business.  Owner believes the location and driving distance are most critical barriers. This website is intended to help visually overcome those objections by providing a map, links to attractions and area business that could help with the event, and includes links to the Chamber of Commerce Calendar. 
+
 # Project 3 Venue Application using MERN #
 
 # Code name:  bvApp
